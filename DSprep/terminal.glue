@@ -1,0 +1,12 @@
+ █ [ /mnt/861EA0881EA072BB/Users/ShubhiD/OneDrive/Codes/DSprep ] glue path
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/oracle_jdk8/bin:/usr/lib/jvm/oracle_jdk8/db/bin:/usr/lib/jvm/oracle_jdk8/jre/bin
+
+█ [ /mnt/861EA0881EA072BB/Users/ShubhiD/OneDrive/Codes/DSprep ] cd cdw
+Directory path 'cdw' does not exist
+
+█ [ /mnt/861EA0881EA072BB/Users/ShubhiD/OneDrive/Codes/DSprep ] mergeSort.cp
+/bin/sh: 1: mergeSort.cp: not found
+
+█ [ /mnt/861EA0881EA072BB/Users/ShubhiD/OneDrive/Codes/DSprep ] mergeSort.cpp
+/bin/sh: 1: mergeSort.cpp: not found
+

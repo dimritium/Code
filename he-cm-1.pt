@@ -1,0 +1,20 @@
+n=int(raw_input())
+lis=map(int,raw_input().split())
+lis_mo=[]
+q,x=map(int,raw_input().split())
+res_found=0
+res=0
+for i in range(q):
+	s=raw_input()
+	if s=='Harry':
+		lis_mo.append(lis[0])
+		del[lis[0]]
+	if s=='Remove':
+		lis_mo.pop()
+	if sum(lis_mo)==x and res_found==0:
+		res_found=1
+		res=len(lis_mo)
+if not res_found:
+	print -1
+else:
+	print res

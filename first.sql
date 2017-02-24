@@ -1,0 +1,1 @@
+Create table Employee(Name varchar(255), Salary int, Department varchar(255));

@@ -1,0 +1,187 @@
+#include<iostream>
+
+using namespace std;
+
+class cal
+{
+	int ch, d, m, y, num, y1, yrem, num1, y2, num2, real, real1;
+public:
+	int getR(int d, int m, int y)
+	{
+		switch (m)
+		{
+
+		case 1:
+			if (y % 4 == 0)
+				num = 4;
+			else
+				num = 5;
+			break;
+		case 10: num = 5;
+			break;
+		case 2:
+			if (y % 4 == 0)
+				num = 0;
+			else
+				num = 1;
+			break;
+		case 3:
+		case 11: num = 1;
+			break;
+		case 4:
+		case 7: num = 4;
+			break;
+		case 5: num = 6;
+			break;
+		case 6: num = 2;
+			break;
+		case 8: num = 0;
+			break;
+		case 9:
+		case 12: num = 3;
+			break;
+		default: cout << "Invalid";
+		}
+		y1 = y / 100;
+		yrem = y1 % 4;
+		switch (yrem)
+		{
+		case 3:num1 = 2;
+			break;
+		case 2: num1 = 4;
+			break;
+		case 1: num1 = 6;
+			break;
+		case 0: num1 = 1;
+			break;
+		}
+		y2 = y % 100;
+		num2 = y2 + y2 / 4;
+		real = d + num + num1 + num2;
+		real1 = real % 7;
+		return real1;
+	}
+	void getD(int real1)
+	{
+		switch (real1)
+		{
+		case 0:cout << "Its Sunday\n\n";
+			cin.get();
+			break;
+		case 1:cout << "Its Monday\n\n";
+			cin.get();
+			break;
+		case 2:cout << "Its Tuesday\n\n";
+			cin.get();
+			break;
+		case 3:cout << "Its Wednesday\n\n";
+			cin.get();
+			break;
+		case 4:cout << "Its Thursday\n\n";
+			cin.get();
+			break;
+		case 5:cout << "Its Friday\n\n";
+			cin.get();
+			break;
+		case 6:cout << "Its Saturday\n\n";
+			cin.get();
+			break;
+		}
+	}
+};
+
+int main()
+{
+	char m2 = 'y';
+	int chk = 0;
+	cout << "\t\tWelcome to Calender Program\n\n";
+	while (m2 == 'y' || m2 == 'Y')
+	{
+
+
+		int i, d1, m1, y1, rl1v,va=1;
+		char str[20];
+		cal r1;
+		char dys[7][3] = { "Su", "Mo", "Tu", "Wd", "Th", "Fr", "Sa" };
+		cout << " Enter 1 for printing day \n       2 for printing month \n       3 for reminder \n       4 for checkig the reminder\n";
+		cin >> i;
+
+		switch (i)
+		{
+		case 1: cout << "Enter date in DD MM YYYY format\n";
+			cin >> d1 >> m1 >> y1;
+			rl1v = r1.getR(d1, m1, y1);
+			r1.getD(rl1v);
+			break;
+		case 2: cout << "Enter month and year in MM YYYY format\n";
+			cin >> m1 >> y1;
+			int la;
+			rl1v = r1.getR(1, m1, y1);
+
+			if (m1 == 1 || m1 == 3 || m1 == 5 || m1 == 7 || m1 == 8 || m1 == 10 || m1 == 12)
+				la = 31;
+			else if (m1 == 2 && (y1 % 4) == 0)
+				la = 29;
+			else if (m1 == 2 && (y1 % 4) != 0)
+				la = 28;
+			else
+				la = 30;
+			cout << "\nYour Month:\n";
+
+			for (int z = 0; z < 7; z++)
+				cout << dys[z] << "\t";
+			cout << "\n";
+			for (int k = 0; k < rl1v; k++)
+				cout << "\t";
+
+			for (int c = 0; c < 6; c++)
+			{
+				for (int d = 0; d < 7 - rl1v; d++)
+				{
+					if (va <= la)
+					{
+						cout << va << "\t";
+						va++;
+					}
+				}
+				cout << "\n";
+				rl1v = 0;
+			}
+			cin.get();
+			break;
+		case 3:
+
+			cout << "Enter the latest one word reminder you wannna make like meeting, birthday etc\n";
+			cin >> str;
+
+			cout << "Enter the date you wanna be reminded for it in DD MM YYYY format\n";
+			cin >> d1 >> m1 >> y1;
+			chk = 1;
+			cin.get();
+			break;
+
+		case 4:
+			if (chk == 0)
+				cout << "No latest reminder\n";
+			else
+			{
+				cout << "Yup there is a reminder for " << d1 << "-" << m1 << "-" << y1 << ":\n";
+
+				int len = strlen(str);
+
+				for (int l1 = 0; l1 < len; l1++)
+					cout << str[l1];
+				cout << "\n";
+			}
+			break;
+
+		}
+		cout << "Thanks for using the program.\nDo you wanna try again? y or n:\n";
+
+		cin >> m2;
+
+
+}
+	return 0;
+
+}

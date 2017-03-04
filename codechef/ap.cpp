@@ -27,7 +27,7 @@ int main()
         else
             cout<<v[0]+v[1]<<endl;
     s.erase();
-    v.erase(v.begin(),v.end());
+   v.erase(v.begin(),v.end());
     }
    return 0;
 }

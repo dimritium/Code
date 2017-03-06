@@ -1,5 +1,6 @@
 //heap(--> basically a tree with some rule) sort
 #include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 void max_heapify(int Arr[],int,int);

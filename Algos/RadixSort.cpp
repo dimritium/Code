@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #define fl(a,b,c) for(a=b;a<c;a++)
-#define ll long long int
+#define ll long long
 #define pb push_back
 using namespace std;
 
@@ -13,7 +13,7 @@ void countSort(int arr[], int n, int place)
     freq[(arr[i]/place)%range]++;
     fl(i, 1, range)
     freq[i]+=freq[i-1];
-    for(i = n-1; i>=; i--)
+    for(i = n-1; i>=0; i--)
     {
         output[freq[(arr[i]/place)%range]-1] = arr[i];
         freq[(arr[i]/place)%range]--;
@@ -22,7 +22,7 @@ void countSort(int arr[], int n, int place)
     arr[i] = output[i];
 }
 
-void radixSort(ll arr[], int n, int maxx)
+void radixSort(int arr[], int n, int maxx)
 {
     int mul = 1;
     while (maxx)
@@ -35,5 +35,8 @@ void radixSort(ll arr[], int n, int maxx)
 
 int main()
 {
-
+    int arr[] = {2,1,3,4,5}, i;
+    radixSort(arr, 5, 5);
+    fl(i, 0, 5)
+    cout<<arr[i]<<" ";
 }

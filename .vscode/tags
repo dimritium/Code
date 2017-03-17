@@ -72,6 +72,7 @@ end	../Practise/ha2.py	/^		end=n\/2-1$/;"	kind:variable	line:8
 enlightOnes.py	../Practise/enlightOnes.py	1;"	kind:file	line:1
 eon.py	../eon.py	1;"	kind:file	line:1
 expl.py	../Practise/expl.py	1;"	kind:file	line:1
+extran.py	../codechef/extran.py	1;"	kind:file	line:1
 f	../Practise/csvTxls.py	/^	f=open(i,'rb')$/;"	kind:variable	line:35
 f	../Practise/images.py	/^f = fetcher.open(searchUrl)$/;"	kind:variable	line:9
 f	../Practise/lis.py	/^f=lambda x:x+5;$/;"	kind:variable	line:1

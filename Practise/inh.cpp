@@ -20,10 +20,11 @@ Base()
     {
         cout<<"~Base()";
     }
-    void print()
+    virtual void print()
     {
         cout<<"Base "<<m_x;
     }
+    virtual void mx() = 0;
 };
 
 class Derived : public Base{
@@ -42,10 +43,15 @@ class Derived : public Base{
     void print(){
         cout<<"md"<<m_d;
     }
+    void mx(){
+        cout<<"Mx";
+    }
 };
 
 int main()
 {
+
  Derived* b = new Derived(5);
  b->print();
+ b->mx();
 }

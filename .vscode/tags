@@ -99,8 +99,13 @@ get_data	../DSprep/linkList.py	/^	def get_data(self):$/;"	kind:member	line:9
 get_next	../DSprep/linkList.py	/^	def get_next(self):$/;"	kind:member	line:5
 get_size	../DSprep/linkList.py	/^	def get_size(self):$/;"	kind:member	line:18
 h1	../Practise/spojPal.py	/^	h1=s[:len_\/2].strip()$/;"	kind:variable	line:6
+h1	../nextPal.py	/^		h1=s[:len_\/2].strip()$/;"	kind:variable	line:10
+h1	../nextPal.py	/^		h1=s[:len_\/2].strip()$/;"	kind:variable	line:7
 h1rev	../Practise/spojPal.py	/^	h1rev=h1[::-1]$/;"	kind:variable	line:9
+h1rev	../nextPal.py	/^	h1rev=h1[::-1]$/;"	kind:variable	line:14
 h2	../Practise/spojPal.py	/^	h2=s[len_\/2:].strip()$/;"	kind:variable	line:7
+h2	../nextPal.py	/^		h2=s[len_\/2+1:].strip()$/;"	kind:variable	line:12
+h2	../nextPal.py	/^		h2=s[len_\/2:].strip()$/;"	kind:variable	line:8
 ha-cm-2.py	../Practise/ha-cm-2.py	1;"	kind:file	line:1
 ha-cm-3.py	../Practise/ha-cm-3.py	1;"	kind:file	line:1
 ha.py	../Practise/ha.py	1;"	kind:file	line:1
@@ -123,6 +128,7 @@ knapS.py	../Practise/knapS.py	1;"	kind:file	line:1
 kr	../Practise/g4g.py	/^	kr=map(int,list(raw_input().strip().split(" ")))$/;"	kind:variable	line:5
 l	../Practise/chk.py	/^l=len(word)$/;"	kind:variable	line:2
 len_	../Practise/spojPal.py	/^	len_=len(s)$/;"	kind:variable	line:5
+len_	../nextPal.py	/^	len_=len(s)$/;"	kind:variable	line:5
 li	../Practise/bin2.py	/^li=map(int,list(raw_input().split(" ")))$/;"	kind:variable	line:18
 li	../Practise/binS.py	/^li=map(int,list(raw_input().split(" ")))$/;"	kind:variable	line:15
 li	../Practise/ha.py	/^	li=map(int,raw_input().split())$/;"	kind:variable	line:5
@@ -140,6 +146,7 @@ lis	../Practise/and.py	/^	lis=[x for x in range(1,n+1)]$/;"	kind:variable	line:4
 lis	../Practise/cntingSrt.py	/^lis = [[]*5]/;"	kind:variable	line:1
 lis	../Practise/hr14-2.py	/^lis=map(int,raw_input().split())$/;"	kind:variable	line:4
 lis	../cntsort.py	/^lis = map(int, raw_input().split())$/;"	kind:variable	line:2
+lis	../codechef/extran.py	/^    lis = map(int, raw_input().split())$/;"	kind:variable	line:4
 lis	../eon.py	/^lis=[[]]*n$/;"	kind:variable	line:4
 lis.py	../Practise/lis.py	1;"	kind:file	line:1
 lis1	../Practise/ha2.py	/^	lis1=list(map(int,raw_input().split()))$/;"	kind:variable	line:5
@@ -163,6 +170,8 @@ median	../Practise/med.py	/^	median=(v[n\/2]);$/;"	kind:variable	line:11
 mid	../Practise/spojPal.py	/^			mid=s[len_\/2]$/;"	kind:variable	line:13
 mid	../Practise/spojPal.py	/^			mid=str(z%10)$/;"	kind:variable	line:49
 mid	../Practise/spojPal.py	/^	mid=''$/;"	kind:variable	line:8
+mid	../nextPal.py	/^			mid=str(z%10)$/;"	kind:variable	line:50
+mid	../nextPal.py	/^		mid=s[len_\/2]$/;"	kind:variable	line:11
 monkiness	../Practise/ha2.py	/^def monkiness(a,b):$/;"	kind:function	line:15
 mul_inv	../Practise/rsa.py	/^	def mul_inv(self,e,phi):$/;"	kind:member	line:46
 n	../DSprep/hi.py	/^n=int(raw_input())$/;"	kind:variable	line:1
@@ -181,6 +190,7 @@ n	../Practise/spojPla.py	/^	n=int(raw_input());max=0;ind=0;$/;"	kind:variable	li
 n	../Practise/sqTrans.py	/^n=int(raw_input())$/;"	kind:variable	line:1
 n	../Practise/wocOCT2.py	/^    n=int(raw_input())$/;"	kind:variable	line:3
 n	../cntsort.py	/^n = int(raw_input())$/;"	kind:variable	line:1
+n	../codechef/extran.py	/^    n = int(raw_input())$/;"	kind:variable	line:3
 n	../eon.py	/^n=int(raw_input())$/;"	kind:variable	line:3
 nMax	../Practise/ha2.py	/^			nMax=(n-2i)$/;"	kind:variable	line:13
 name	../LearnStuff/quotes_spider.py	/^	name="quotes"$/;"	kind:variable	line:4
@@ -190,6 +200,7 @@ newfile.py	../DSprep/newfile.py	1;"	kind:file	line:1
 next	../Practise/ha-cm-3.py	/^	next=lis_ele[i]$/;"	kind:variable	line:19
 next	../Practise/ng.py	/^	next=lis_ele[i]$/;"	kind:variable	line:8
 nextGreater.py	../Practise/nextGreater.py	1;"	kind:file	line:1
+nextPal.py	../nextPal.py	1;"	kind:file	line:1
 ng.py	../Practise/ng.py	1;"	kind:file	line:1
 nli	../Practise/sqTrans.py	/^nli=[0]*n$/;"	kind:variable	line:3
 nod	../Practise/nodTt.py	/^def nod(y1,m1,d1,y2,m2,d2):$/;"	kind:function	line:1
@@ -258,6 +269,7 @@ s	../Practise/prb2.py	/^	s=raw_input()$/;"	kind:variable	line:4
 s	../Practise/slog.py	/^s='14BCS14'$/;"	kind:variable	line:9
 s	../Practise/spojPal.py	/^	s=str(raw_input())$/;"	kind:variable	line:4
 s	../Practise/wocOCT2.py	/^    s=map(str,raw_input())$/;"	kind:variable	line:5
+s	../nextPal.py	/^	s=str(raw_input())$/;"	kind:variable	line:4
 s_lis	../Practise/hr14-2.py	/^s_lis=sorted(lis)$/;"	kind:variable	line:5
 scrap.py	../LearnStuff/scrap.py	1;"	kind:file	line:1
 scrapper.py	../Practise/scrapper.py	1;"	kind:file	line:1
@@ -299,6 +311,7 @@ sum	../Practise/DivsumSp.py	/^	sum=1$/;"	kind:variable	line:4
 sum	../Practise/ls.py	/^		sum=sum+abs(ord(fp[i])-ord(sp[len(fp)-i-1]))$/;"	kind:variable	line:11
 sum	../Practise/ls.py	/^	sum=0$/;"	kind:variable	line:3
 t	../Practise/pyThread.py	/^		t=threading.Thread(target=Splitter,args=(sentence,))$/;"	kind:variable	line:16
+t	../codechef/extran.py	/^t = int(raw_input())$/;"	kind:variable	line:1
 tc	../Practise/DivsumSp.py	/^tc=int(raw_input())$/;"	kind:variable	line:2
 tc	../Practise/alexCo.py	/^tc=int(raw_input())$/;"	kind:variable	line:7
 tc	../Practise/and.py	/^tc=int(raw_input())$/;"	kind:variable	line:1
@@ -307,6 +320,7 @@ tc	../Practise/ha.py	/^tc=int(raw_input())$/;"	kind:variable	line:1
 tc	../Practise/ha2.py	/^tc=int(raw_input())$/;"	kind:variable	line:1
 tc	../Practise/spojPal.py	/^tc=int(input())$/;"	kind:variable	line:1
 tc	../Practise/spojPla.py	/^tc=int(raw_input())$/;"	kind:variable	line:2
+tc	../nextPal.py	/^tc=int(input())$/;"	kind:variable	line:1
 temp	../Practise/scrapper.py	/^		temp = soup.find('div', class_="instute-contact-details")$/;"	kind:variable	line:84
 temp	../Practise/scrapper.py	/^		temp = soup.find('div', class_='prof_cont_block')$/;"	kind:variable	line:122
 temp	../Practise/scrapper.py	/^		temp = soup.find_all('div', class_="member_basic_info_holder")$/;"	kind:variable	line:100
@@ -356,6 +370,16 @@ x	../Practise/spojPal.py	/^				x=h1[:-1]+str(z)$/;"	kind:variable	line:21
 x	../Practise/spojPal.py	/^				x=h1[:i]+x$/;"	kind:variable	line:31
 x	../Practise/spojPal.py	/^				x=h1[:i]+x$/;"	kind:variable	line:57
 x	../Practise/spojPal.py	/^	x=""$/;"	kind:variable	line:3
+x	../nextPal.py	/^						x="0"+x$/;"	kind:variable	line:28
+x	../nextPal.py	/^						x="0"+x$/;"	kind:variable	line:54
+x	../nextPal.py	/^						x=str(int(h1[i])+1)+x$/;"	kind:variable	line:30
+x	../nextPal.py	/^						x=str(int(h1[i])+1)+x$/;"	kind:variable	line:56
+x	../nextPal.py	/^				x=h1[:-1]+str(z)$/;"	kind:variable	line:22
+x	../nextPal.py	/^				x=h1[:i]+x$/;"	kind:variable	line:32
+x	../nextPal.py	/^				x=h1[:i]+x$/;"	kind:variable	line:58
+x	../nextPal.py	/^	x=""$/;"	kind:variable	line:3
 z	../Practise/scrapper.py	/^	z=0 $/;"	kind:variable	line:47
 z	../Practise/spojPal.py	/^			z=int(h1[-1])+1$/;"	kind:variable	line:19
 z	../Practise/spojPal.py	/^			z=int(mid)+1$/;"	kind:variable	line:48
+z	../nextPal.py	/^			z=int(h1[-1])+1$/;"	kind:variable	line:20
+z	../nextPal.py	/^			z=int(mid)+1$/;"	kind:variable	line:49

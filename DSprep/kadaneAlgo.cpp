@@ -15,10 +15,11 @@ res max_sub(int a[],int n)
 	int i;
 	res max,max_curr;
 	max_curr.sum=-1*INT_MAX;
+	cout<<max_curr.sum<<endl;
 	max=max_curr;
 	for(i=0;i<n;i++)
 	{
-		if(max_curr.sum<0)
+		if(max_curr.sum<=0)
 		{
 			max_curr.sum=a[i];
 			max_curr.i=i;
@@ -38,8 +39,8 @@ res max_sub(int a[],int n)
 }
 int main()
 {
-	int a[]={-1,-2,-3,4,5,-1,2};
+	int a[]={-2, -3, 4, 2, -2,1,5,-2};
 	res x;
-	x=max_sub(a,7);
-	cout<<x.sum;
+	x=max_sub(a,8);
+	cout<<x.sum<<" "<<x.i<<" "<<x.j;
 }

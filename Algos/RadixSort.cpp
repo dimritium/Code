@@ -35,8 +35,8 @@ void radixSort(int arr[], int n, int maxx)
 
 int main()
 {
-    int arr[] = {2,1,3,4,5}, i;
-    radixSort(arr, 5, 5);
+    int arr[] = {55,4,33,2,10}, i;
+    radixSort(arr, 5, 55);
     fl(i, 0, 5)
     cout<<arr[i]<<" ";
 }

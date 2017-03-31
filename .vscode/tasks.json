@@ -1,6 +1,6 @@
 {
     "version": "0.1.0",
-    "command": "make",
+    "command": "cmake",
     "isShellCommand": true,
     "tasks": [
         {
@@ -10,7 +10,7 @@
             // Show the output window only if unrecognized errors occur.
             "showOutput": "always",
             // No args
-            "args": ["all"],
+            "args": [],
             // Use the standard less compilation problem matcher.
             "problemMatcher": {
                 "owner": "cpp",

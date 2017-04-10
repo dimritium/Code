@@ -27,7 +27,7 @@ int MaxDepth(struct node * node)
 }
 struct node* newNode(int data)
 {
-	struct node *node=(struct node*)malloc(sizeof(sruct node));
+	struct node *node=(struct node*)malloc(sizeof(node));
 	node->data=data;
 	node->left=NULL;
 	node->right=NULL;
@@ -35,5 +35,13 @@ struct node* newNode(int data)
 }
 int main()
 {
-	
+	node *root = new node;
+	node *left_ele = newNode(5);
+	node *right_ele = newNode(10);
+	node *left_left_ele = newNode(15);
+	root->left = left_ele;
+	root->right = right_ele;
+	root->left->left = left_left_ele;
+	cout<<MaxDepth(root);
+
 }

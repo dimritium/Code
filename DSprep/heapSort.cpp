@@ -28,8 +28,8 @@ void heapSort(int arr[], int n){
 }
 
 void printArr(int arr[], int n){
-    for(int i : arr){
-        cout<<i<<" ";
+    for(int i=0; i<n; i++){
+        cout<<arr[i]<<" ";
     }
 }
 int main()

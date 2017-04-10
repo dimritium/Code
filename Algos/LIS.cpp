@@ -32,9 +32,8 @@ int lis(int arr[], int n)
 
 void printSol(int arr[], int lis[])
 {
-	cout<<"size "<<sizeof(arr)<<endl;
 	int cnt = 0;
-	for(int i=0; i<9 ; i++)
+	for(int i=0; i<10 ; i++)
 	{
 		if(lis[i]>cnt && lis[i+1] != lis[i])
 		{
@@ -46,8 +45,8 @@ void printSol(int arr[], int lis[])
 
 int main()
 {
-	int arr[] = {10, 22, 9, 33, 21, 50, 41, 60, 80};
-	int max = lis(arr, 9);
+	int arr[] = {10, 22, 9, 33, 21,33, 41, 50, 60, 80};
+	int max = lis(arr, 10);
 	
 	cout<<"\n"<<max;
 }

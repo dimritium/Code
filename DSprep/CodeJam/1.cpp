@@ -5,6 +5,8 @@
 using namespace std;
 
 int main(){
+    freopen("A-large-practice.bin","r",stdin);
+    freopen("output_file_name.out","w",stdout);
     long long int tc,n,m;
     cin>>tc;
     long long int res[tc];
@@ -15,13 +17,13 @@ int main(){
     if(n>m){
         swap(n,m);
     }
-    for(long long int k = 1; k<=n-1; k++){
-       sum += ((k*(n-k)%MOD)*((m-k)%MOD))%MOD;
-    }
-    // ll fp = (((n*m)%MOD)*(((n*(n+1))%MOD)/2))%MOD;
-    // ll sp = (((((n+m)%MOD)*((n*(n+1))%MOD))%MOD)*(((((2*n)%MOD + 1)%MOD)/6)%MOD))%MOD;
-    // ll tp = (((n*n)%MOD)*(((n+1)*(n+1))%MOD)/4)%MOD;
-    // sum = ((tp + (fp-sp)%MOD))%MOD;
+    // for(long long int k = 1; k<=n-1; k++){
+    //    sum += ((k*(n-k)%MOD)*((m-k)%MOD))%MOD;
+    // }
+    ll fp = (((n*m)%MOD)*(((n*(n+1))%MOD)/2))%MOD;
+    ll sp = (((((n+m)%MOD)*((n*(n+1))%MOD))%MOD)*(((((2*n)%MOD + 1)%MOD)/6)%MOD))%MOD;
+    ll tp = (((n*n)%MOD)*(((n+1)*(n+1))%MOD)/4)%MOD;
+    sum = (tp%MOD + (fp%MOD - sp%MOD + MOD)%MOD)%MOD;
     cout<<"Case #"<<i+1<<": "<<sum%MOD;
     cout<<endl;
     }

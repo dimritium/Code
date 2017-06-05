@@ -39,7 +39,7 @@ res max_sub(int a[],int n)
 }
 int main()
 {
-	int a[]={-2, -3, 4, 2, -2,1,5,-2};
+	int a[]={-2, -3, -4, -2, -2,-1,-5,-2};
 	res x;
 	x=max_sub(a,8);
 	cout<<x.sum<<" "<<x.i<<" "<<x.j;

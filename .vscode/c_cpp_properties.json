@@ -1,14 +1,17 @@
 {
-  "configurations": [
-    {
-      "name": "Linux64",
-      "includePath": [
-        "usr/bin/c++"
-      ],
-      "browse": {
-        "limitSymbolsToIncludedHeaders": true,
-        "databaseFilename": ""
-      }
-    }
-  ]
+    "configurations": [
+        {
+            "name": "Linux64",
+            "includePath": [
+                "usr/bin/c++"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "usr/bin/c++"
+                ]
+            }
+        }
+    ]
 }

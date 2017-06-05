@@ -11,6 +11,7 @@ KEYS	../Practise/test.py	/^KEYS = [ $/;"	kind:variable	line:5
 LinkedList	../DSprep/linkList.py	/^class LinkedList(object):$/;"	kind:class	line:14
 MatrixChainOrder	../Practise/matrixChain.py	/^def MatrixChainOrder(p,n):$/;"	kind:function	line:2
 NEWSPIDER_MODULE	../quotes_scrap/quotes_scrap/settings.py	/^NEWSPIDER_MODULE = 'quotes_scrap.spiders'$/;"	kind:variable	line:15
+Node	../ll.py	/^class Node(object):$/;"	kind:class	line:1
 QuotesScrapItem	../quotes_scrap/quotes_scrap/items.py	/^class QuotesScrapItem(scrapy.Item):$/;"	kind:class	line:11
 QuotesScrapPipeline	../quotes_scrap/quotes_scrap/pipelines.py	/^class QuotesScrapPipeline(object):$/;"	kind:class	line:9
 QuotesSpider	../LearnStuff/quotes_spider.py	/^class QuotesSpider(scrapy.Spider):$/;"	kind:class	line:3
@@ -24,8 +25,10 @@ __init__	../DSprep/stackEvPos.py	/^	def __init__(self,n):$/;"	kind:member	line:2
 __init__	../DSprep/tree1.py	/^	def __init__(self,data):$/;"	kind:member	line:2
 __init__	../Practise/csvTxls.py	/^    def __init__(self, sheet):$/;"	kind:member	line:18
 __init__	../Practise/rsa.py	/^	def __init__(self):$/;"	kind:member	line:6
+__init__	../ll.py	/^    def __init__(self, data=None, next=None):$/;"	kind:member	line:2
 __init__.py	../quotes_scrap/quotes_scrap/__init__.py	1;"	kind:file	line:1
 __init__.py	../quotes_scrap/quotes_scrap/spiders/__init__.py	1;"	kind:file	line:1
+__str__	../ll.py	/^    def __str__(self):$/;"	kind:member	line:11
 a	../Practise/g4g.py	/^		a=(pi[j]*pi[j]) + (pi[j+1]*pi[j+1])$/;"	kind:variable	line:14
 add	../DSprep/linkList.py	/^	def add(self,d):$/;"	kind:member	line:20
 alexCo.py	../Practise/alexCo.py	1;"	kind:file	line:1
@@ -43,8 +46,11 @@ bins	../Practise/bin2.py	/^def bins(li,start,end,key):$/;"	kind:function	line:1
 bins	../Practise/binS.py	/^def bins(li,start,end,key):$/;"	kind:function	line:1
 browser	../Practise/slog.py	/^browser=webdriver.Chrome()$/;"	kind:variable	line:12
 c	../Practise/scrapper.py	/^	c = csv.writer(mycsv, dialect='mydialect')$/;"	kind:variable	line:19
+ccMay17-1.py	../ccMay17-1.py	1;"	kind:file	line:1
+ccQua17-2.py	../ccQua17-2.py	1;"	kind:file	line:1
 charwidths	../Practise/arial10.py	/^charwidths = {$/;"	kind:variable	line:12
 chk.py	../Practise/chk.py	1;"	kind:file	line:1
+cnt_max	../ccQua17-2.py	/^def cnt_max(lis, max_no):$/;"	kind:function	line:24
 cntingSrt.py	../Practise/cntingSrt.py	1;"	kind:file	line:1
 cntsort.py	../cntsort.py	1;"	kind:file	line:1
 colwidth	../Practise/arial10.py	/^def colwidth(n):$/;"	kind:function	line:137
@@ -88,6 +94,11 @@ flag	../Practise/slog.py	/^			flag=1$/;"	kind:variable	line:33
 flag	../Practise/slog.py	/^flag=0$/;"	kind:variable	line:7
 flag	../Practise/wocOCT2.py	/^                flag=1$/;"	kind:variable	line:15
 flag	../Practise/wocOCT2.py	/^        flag=0$/;"	kind:variable	line:12
+flag	../snakePro.py	/^                flag = 0$/;"	kind:variable	line:17
+flag	../snakePro.py	/^                flag = 0$/;"	kind:variable	line:19
+flag	../snakePro.py	/^                flag = 0$/;"	kind:variable	line:25
+flag	../snakePro.py	/^                flag = 1$/;"	kind:variable	line:23
+flag	../snakePro.py	/^    flag = 0$/;"	kind:variable	line:3
 fn.py	../Practise/fn.py	1;"	kind:file	line:1
 fp	../Practise/ls.py	/^	fp=x[:len(x)\/2]$/;"	kind:variable	line:5
 fun	../Practise/thread2.py	/^def fun(text,delay):$/;"	kind:function	line:3
@@ -96,8 +107,11 @@ g4g.py	../Practise/g4g.py	1;"	kind:file	line:1
 gcd	../Practise/rsa.py	/^	def gcd(self,fir,sec):$/;"	kind:member	line:40
 gen_keypair	../Practise/rsa.py	/^	def gen_keypair(self,p,q):$/;"	kind:member	line:52
 get_data	../DSprep/linkList.py	/^	def get_data(self):$/;"	kind:member	line:9
+get_data	../ll.py	/^    def get_data(self):$/;"	kind:member	line:5
 get_next	../DSprep/linkList.py	/^	def get_next(self):$/;"	kind:member	line:5
+get_next	../ll.py	/^    def get_next(self):$/;"	kind:member	line:7
 get_size	../DSprep/linkList.py	/^	def get_size(self):$/;"	kind:member	line:18
+h	../num2words.py	/^h = int(raw_input())$/;"	kind:variable	line:5
 h1	../Practise/spojPal.py	/^	h1=s[:len_\/2].strip()$/;"	kind:variable	line:6
 h1	../nextPal.py	/^		h1=s[:len_\/2].strip()$/;"	kind:variable	line:10
 h1	../nextPal.py	/^		h1=s[:len_\/2].strip()$/;"	kind:variable	line:7
@@ -111,10 +125,12 @@ ha-cm-3.py	../Practise/ha-cm-3.py	1;"	kind:file	line:1
 ha.py	../Practise/ha.py	1;"	kind:file	line:1
 ha2.py	../Practise/ha2.py	1;"	kind:file	line:1
 hcf	../Practise/alexCo.py	/^def hcf(fir,sec):$/;"	kind:function	line:1
+heApr17_2.py	../heApr17_2.py	1;"	kind:file	line:1
 headers	../Practise/scrapper.py	/^		headers = {'User-agent': 'Mozilla\/5.0'}$/;"	kind:variable	line:57
 headers	../Practise/scrapper.py	/^	headers = {'User-agent': 'Mozilla\/5.0'}$/;"	kind:variable	line:26
 hi.py	../DSprep/hi.py	1;"	kind:file	line:1
 hr14-2.py	../Practise/hr14-2.py	1;"	kind:file	line:1
+hrs	../num2words.py	/^hrs = ['','one ','two ','three ','four ','five ','six ','seven ','eight ','nine ','ten ','eleven ','twelve ','thirteen ','fourteen ','fifteen ','sixteen ','seventeen ','eighteen ','ninteen ','twenty ']$/;"	kind:variable	line:1
 images.py	../Practise/images.py	1;"	kind:file	line:1
 ind	../Practise/spojPla.py	/^			ind=x+1$/;"	kind:variable	line:10
 isEmpty	../DSprep/revStr.py	/^def isEmpty(stack):$/;"	kind:function	line:6
@@ -127,6 +143,8 @@ key_index	../Practise/test.py	/^key_index = 0$/;"	kind:variable	line:9
 knapS.py	../Practise/knapS.py	1;"	kind:file	line:1
 kr	../Practise/g4g.py	/^	kr=map(int,list(raw_input().strip().split(" ")))$/;"	kind:variable	line:5
 l	../Practise/chk.py	/^l=len(word)$/;"	kind:variable	line:2
+len	../snakePro.py	/^    len = int(raw_input())$/;"	kind:variable	line:5
+len	../templela.py	/^    len = int(raw_input())$/;"	kind:variable	line:4
 len_	../Practise/spojPal.py	/^	len_=len(s)$/;"	kind:variable	line:5
 len_	../nextPal.py	/^	len_=len(s)$/;"	kind:variable	line:5
 li	../Practise/bin2.py	/^li=map(int,list(raw_input().split(" ")))$/;"	kind:variable	line:18
@@ -139,15 +157,21 @@ li	../Practise/py.py	/^li=[1]*9;$/;"	kind:variable	line:1
 li	../Practise/reveW.py	/^li=list(map(int,raw_input().split()))$/;"	kind:variable	line:2
 li	../Practise/scrapper.py	/^	li = soup.find_all('div',class_='memtitle_holder')$/;"	kind:variable	line:35
 li	../Practise/sqTrans.py	/^li=list(map(int,raw_input().split()))$/;"	kind:variable	line:2
+li	../ccQua17-2.py	/^        li = map(int, raw_input().split())$/;"	kind:variable	line:37
 li2	../Practise/scrapper.py	/^	li2=[]$/;"	kind:variable	line:37
 lineterminator	../Practise/scrapper.py	/^    lineterminator = '\\r\\n',$/;"	kind:variable	line:14
 linkList.py	../DSprep/linkList.py	1;"	kind:file	line:1
 lis	../Practise/and.py	/^	lis=[x for x in range(1,n+1)]$/;"	kind:variable	line:4
 lis	../Practise/cntingSrt.py	/^lis = [[]*5]/;"	kind:variable	line:1
 lis	../Practise/hr14-2.py	/^lis=map(int,raw_input().split())$/;"	kind:variable	line:4
+lis	../ccMay17-1.py	/^    lis = []$/;"	kind:variable	line:4
+lis	../ccQua17-2.py	/^    lis = []$/;"	kind:variable	line:35
 lis	../cntsort.py	/^lis = map(int, raw_input().split())$/;"	kind:variable	line:2
 lis	../codechef/extran.py	/^    lis = map(int, raw_input().split())$/;"	kind:variable	line:4
 lis	../eon.py	/^lis=[[]]*n$/;"	kind:variable	line:4
+lis	../heApr17_2.py	/^lis = map(int, raw_input().split())$/;"	kind:variable	line:4
+lis	../snakePro.py	/^    lis = []$/;"	kind:variable	line:4
+lis	../templela.py	/^    lis = map(int, raw_input().split())$/;"	kind:variable	line:5
 lis.py	../Practise/lis.py	1;"	kind:file	line:1
 lis1	../Practise/ha2.py	/^	lis1=list(map(int,raw_input().split()))$/;"	kind:variable	line:5
 lis2	../Practise/ha2.py	/^	lis2=list(map(int,raw_input().split()))$/;"	kind:variable	line:6
@@ -158,10 +182,16 @@ lis_fin	../Practise/ng.py	/^lis_fin=[-1]*n$/;"	kind:variable	line:4
 lis_x	../Practise/ha-cm-3.py	/^lis_x=[]$/;"	kind:variable	line:2
 lis_y	../Practise/ha-cm-3.py	/^lis_y=[]$/;"	kind:variable	line:3
 lisdic	../Practise/slog.py	/^lisdic=[]$/;"	kind:variable	line:8
+ll.py	../ll.py	1;"	kind:file	line:1
+log_exp	../heApr17_2.py	/^log_exp = (float)(log_sum\/n)$/;"	kind:variable	line:8
+log_sum	../heApr17_2.py	/^log_sum = 0$/;"	kind:variable	line:5
 ls.py	../Practise/ls.py	1;"	kind:file	line:1
+m	../num2words.py	/^m = int(raw_input())$/;"	kind:variable	line:6
 matrixChain.py	../Practise/matrixChain.py	1;"	kind:file	line:1
 max	../Practise/spojPla.py	/^			max=d$/;"	kind:variable	line:9
 max_e	../cntsort.py	/^max_e=max(lis)$/;"	kind:variable	line:3
+max_no	../ccQua17-2.py	/^        max_no = max(max(i),max_no)$/;"	kind:variable	line:41
+max_no	../ccQua17-2.py	/^    max_no = 0$/;"	kind:variable	line:39
 maxno	../Practise/and.py	/^				maxno=(lis[j]&lis[k])$/;"	kind:variable	line:9
 maxno	../Practise/and.py	/^	maxno=0$/;"	kind:variable	line:5
 med.py	../Practise/med.py	1;"	kind:file	line:1
@@ -172,6 +202,11 @@ mid	../Practise/spojPal.py	/^			mid=str(z%10)$/;"	kind:variable	line:49
 mid	../Practise/spojPal.py	/^	mid=''$/;"	kind:variable	line:8
 mid	../nextPal.py	/^			mid=str(z%10)$/;"	kind:variable	line:50
 mid	../nextPal.py	/^		mid=s[len_\/2]$/;"	kind:variable	line:11
+min_p	../num2words.py	/^        min_p = hrs[m]$/;"	kind:variable	line:13
+min_p	../num2words.py	/^        min_p = mins[m\/10]+hrs[m%10]$/;"	kind:variable	line:11
+min_p	../num2words.py	/^        min_p=hrs[sig]$/;"	kind:variable	line:28
+min_p	../num2words.py	/^        min_p=mins[sig\/10]+hrs[sig%10]$/;"	kind:variable	line:30
+mins	../num2words.py	/^mins = ['','ten ','twenty ','thirty ','fourty ','fifty ']$/;"	kind:variable	line:3
 monkiness	../Practise/ha2.py	/^def monkiness(a,b):$/;"	kind:function	line:15
 mul_inv	../Practise/rsa.py	/^	def mul_inv(self,e,phi):$/;"	kind:member	line:46
 n	../DSprep/hi.py	/^n=int(raw_input())$/;"	kind:variable	line:1
@@ -192,10 +227,13 @@ n	../Practise/wocOCT2.py	/^    n=int(raw_input())$/;"	kind:variable	line:3
 n	../cntsort.py	/^n = int(raw_input())$/;"	kind:variable	line:1
 n	../codechef/extran.py	/^    n = int(raw_input())$/;"	kind:variable	line:3
 n	../eon.py	/^n=int(raw_input())$/;"	kind:variable	line:3
+n	../heApr17_2.py	/^n = int(raw_input())$/;"	kind:variable	line:3
 nMax	../Practise/ha2.py	/^			nMax=(n-2i)$/;"	kind:variable	line:13
 name	../LearnStuff/quotes_spider.py	/^	name="quotes"$/;"	kind:variable	line:4
 name	../LearnStuff/scrap.py	/^	name="quotes"$/;"	kind:variable	line:4
 new	../cntsort.py	/^    new=sort_lis[i]$/;"	kind:variable	line:19
+new_val	../heApr17_2.py	/^    new_val = new_val+1$/;"	kind:variable	line:11
+new_val	../heApr17_2.py	/^new_val = int(math.ceil(math.pow(10,log_exp)))$/;"	kind:variable	line:9
 newfile.py	../DSprep/newfile.py	1;"	kind:file	line:1
 next	../Practise/ha-cm-3.py	/^	next=lis_ele[i]$/;"	kind:variable	line:19
 next	../Practise/ng.py	/^	next=lis_ele[i]$/;"	kind:variable	line:8
@@ -207,7 +245,9 @@ nod	../Practise/nodTt.py	/^def nod(y1,m1,d1,y2,m2,d2):$/;"	kind:function	line:1
 nodTt.py	../Practise/nodTt.py	1;"	kind:file	line:1
 node	../DSprep/linkList.py	/^class node(object):$/;"	kind:class	line:1
 node	../DSprep/tree1.py	/^class node:$/;"	kind:class	line:1
+node	../ll.py	/^node = Node(5)$/;"	kind:variable	line:14
 ntn	../Practise/ha.py	/^	ntn=range(1,n+1)$/;"	kind:variable	line:4
+num2words.py	../num2words.py	1;"	kind:file	line:1
 numberOfThreads	../Practise/pyThread.py	/^	numberOfThreads=5$/;"	kind:variable	line:11
 nw	../Practise/knapS.py	/^		nw=nw+li[i][0]$/;"	kind:variable	line:12
 odd	../Practise/spojPal.py	/^	odd=len_%2$/;"	kind:variable	line:10
@@ -251,6 +291,7 @@ res	../Practise/expl.py	/^            res = res + 'b'$/;"	kind:variable	line:17
 res	../Practise/expl.py	/^            res = res + 'b';$/;"	kind:variable	line:10
 res	../Practise/expl.py	/^        res = res + s[i];$/;"	kind:variable	line:7
 res	../Practise/expl.py	/^res = '';$/;"	kind:variable	line:3
+res	../ccMay17-1.py	/^    res = lis.count('m') - lis.count('s')$/;"	kind:variable	line:13
 revStr.py	../DSprep/revStr.py	1;"	kind:file	line:1
 reveW.py	../Practise/reveW.py	1;"	kind:file	line:1
 reverse	../DSprep/revStr.py	/^def reverse(string):$/;"	kind:function	line:14
@@ -269,23 +310,34 @@ s	../Practise/prb2.py	/^	s=raw_input()$/;"	kind:variable	line:4
 s	../Practise/slog.py	/^s='14BCS14'$/;"	kind:variable	line:9
 s	../Practise/spojPal.py	/^	s=str(raw_input())$/;"	kind:variable	line:4
 s	../Practise/wocOCT2.py	/^    s=map(str,raw_input())$/;"	kind:variable	line:5
+s	../ccMay17-1.py	/^    s = str(raw_input())$/;"	kind:variable	line:3
 s	../nextPal.py	/^	s=str(raw_input())$/;"	kind:variable	line:4
+s	../snakePro.py	/^    s = s.replace('.','')$/;"	kind:variable	line:7
+s	../snakePro.py	/^    s = str(raw_input())$/;"	kind:variable	line:6
+s	../templela.py	/^    s = []$/;"	kind:variable	line:3
 s_lis	../Practise/hr14-2.py	/^s_lis=sorted(lis)$/;"	kind:variable	line:5
+samesnak.py	../samesnak.py	1;"	kind:file	line:1
 scrap.py	../LearnStuff/scrap.py	1;"	kind:file	line:1
 scrapper.py	../Practise/scrapper.py	1;"	kind:file	line:1
 searchTerm	../Practise/images.py	/^searchTerm = 'parrot'$/;"	kind:variable	line:6
+sec	../ll.py	/^sec = Node(10)$/;"	kind:variable	line:15
 sentence	../Practise/pyThread.py	/^	sentence="I am asd";$/;"	kind:variable	line:10
 set_data	../DSprep/linkList.py	/^	def set_data(self,d):$/;"	kind:member	line:11
 set_next	../DSprep/linkList.py	/^	def set_next(self,n):$/;"	kind:member	line:7
+set_next	../ll.py	/^    def set_next(self, next):$/;"	kind:member	line:9
 settings.py	../quotes_scrap/quotes_scrap/settings.py	1;"	kind:file	line:1
 sh	../Practise/g4g.py	/^				sh=sh+k+1$/;"	kind:variable	line:18
 sheet	../Practise/csvTxls.py	/^	sheet=wbk.add_sheet("Sheet 1")$/;"	kind:variable	line:38
 sheet	../Practise/scrapper.py	/^	sheet=wbk.add_sheet("Sheet 1")$/;"	kind:variable	line:151
+sig	../num2words.py	/^    sig = 60-m$/;"	kind:variable	line:26
 size	../DSprep/revStr.py	/^def size(stack):$/;"	kind:function	line:4
 size	../Practise/g4g.py	/^	size=len(li)$/;"	kind:variable	line:8
 size	../Practise/matrixChain.py	/^size=len(arr)$/;"	kind:variable	line:18
 skipinitialspace	../Practise/scrapper.py	/^    skipinitialspace = True,$/;"	kind:variable	line:13
 slog.py	../Practise/slog.py	1;"	kind:file	line:1
+snakeCC.py	../snakeCC.py	1;"	kind:file	line:1
+snakeCC2.py	../snakeCC2.py	1;"	kind:file	line:1
+snakePro.py	../snakePro.py	1;"	kind:file	line:1
 solve	../Practise/enlightOnes.py	/^def solve(pi,k):$/;"	kind:function	line:10
 sort_lis	../cntsort.py	/^sort_lis=[0]*(n+1)$/;"	kind:variable	line:5
 soup	../Practise/scrapper.py	/^		soup = BeautifulSoup(webpage.content, "html.parser")$/;"	kind:variable	line:59
@@ -320,18 +372,29 @@ tc	../Practise/ha.py	/^tc=int(raw_input())$/;"	kind:variable	line:1
 tc	../Practise/ha2.py	/^tc=int(raw_input())$/;"	kind:variable	line:1
 tc	../Practise/spojPal.py	/^tc=int(input())$/;"	kind:variable	line:1
 tc	../Practise/spojPla.py	/^tc=int(raw_input())$/;"	kind:variable	line:2
+tc	../ccMay17-1.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../ccQua17-2.py	/^tc = int(raw_input())$/;"	kind:variable	line:32
 tc	../nextPal.py	/^tc=int(input())$/;"	kind:variable	line:1
+tc	../samesnak.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../snakeCC.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../snakeCC2.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../snakePro.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../templela.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
 temp	../Practise/scrapper.py	/^		temp = soup.find('div', class_="instute-contact-details")$/;"	kind:variable	line:84
 temp	../Practise/scrapper.py	/^		temp = soup.find('div', class_='prof_cont_block')$/;"	kind:variable	line:122
 temp	../Practise/scrapper.py	/^		temp = soup.find_all('div', class_="member_basic_info_holder")$/;"	kind:variable	line:100
 temp2	../Practise/scrapper.py	/^			temp2 = temp.find_all('a', class_='view_contact')$/;"	kind:variable	line:89
 temp2	../Practise/scrapper.py	/^		temp2 = []$/;"	kind:variable	line:87
 temp3	../Practise/scrapper.py	/^			temp3 = x.find_all('li')$/;"	kind:variable	line:110
+templela.py	../templela.py	1;"	kind:file	line:1
 test.py	../Practise/test.py	1;"	kind:file	line:1
+third	../ll.py	/^third = Node(15)$/;"	kind:variable	line:16
 thread.py	../Practise/thread.py	1;"	kind:file	line:1
 thread2.py	../Practise/thread2.py	1;"	kind:file	line:1
 threadList	../Practise/pyThread.py	/^	threadList=[]$/;"	kind:variable	line:12
 threading.py	../Practise/threading.py	1;"	kind:file	line:1
+time	../ccQua17-2.py	/^        time = time + 1$/;"	kind:variable	line:55
+time	../ccQua17-2.py	/^    time = 0$/;"	kind:variable	line:46
 timeS.py	../DSprep/timeS.py	1;"	kind:file	line:1
 time_sort	../DSprep/timeS.py	/^def time_sort(lis):$/;"	kind:function	line:1
 tmp	../cntsort.py	/^        tmp = tmp-1$/;"	kind:variable	line:15
@@ -349,6 +412,7 @@ url	../Practise/slog.py	/^url='http:\/\/172.16.2.1:1000\/login?'$/;"	kind:variab
 user	../Practise/slog.py	/^		user=browser.find_element_by_name('username')$/;"	kind:variable	line:24
 v	../Practise/med.py	/^v=[];$/;"	kind:variable	line:1
 val	../Practise/knapS.py	/^		val=val+li[i][1]$/;"	kind:variable	line:13
+verified	../ccQua17-2.py	/^def verified(x, y, n, m):$/;"	kind:function	line:18
 wbk	../Practise/csvTxls.py	/^	wbk=xlwt.Workbook(encoding='latin-1')$/;"	kind:variable	line:37
 wbk	../Practise/scrapper.py	/^	wbk=xlwt.Workbook()$/;"	kind:variable	line:150
 webpage	../Practise/scrapper.py	/^		webpage = requests.get( url, headers=headers )$/;"	kind:variable	line:58
@@ -378,6 +442,11 @@ x	../nextPal.py	/^				x=h1[:-1]+str(z)$/;"	kind:variable	line:22
 x	../nextPal.py	/^				x=h1[:i]+x$/;"	kind:variable	line:32
 x	../nextPal.py	/^				x=h1[:i]+x$/;"	kind:variable	line:58
 x	../nextPal.py	/^	x=""$/;"	kind:variable	line:3
+x_axis	../ccQua17-2.py	/^    x_axis = []$/;"	kind:variable	line:42
+x_points	../ccQua17-2.py	/^x_points = [-1,-1,-1, 0,0, 1,1,1]$/;"	kind:variable	line:30
+xyAxis	../ccQua17-2.py	/^def xyAxis(lis, max_no, n, m):$/;"	kind:function	line:1
+y_axis	../ccQua17-2.py	/^    y_axis = []$/;"	kind:variable	line:43
+y_points	../ccQua17-2.py	/^y_points = [-1, 0, 1,-1,1,-1,0,1]$/;"	kind:variable	line:31
 z	../Practise/scrapper.py	/^	z=0 $/;"	kind:variable	line:47
 z	../Practise/spojPal.py	/^			z=int(h1[-1])+1$/;"	kind:variable	line:19
 z	../Practise/spojPal.py	/^			z=int(mid)+1$/;"	kind:variable	line:48

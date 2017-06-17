@@ -22,6 +22,7 @@ class BinTree{
             BinTree tr = new BinTree();
             tr.root = new Node(6);
             tr.root.left = new Node(5);
+            tr.root.left.left = new Node(5);            
             tr.root.right = new Node(7);
             tr.traverse(tr.root);
         }

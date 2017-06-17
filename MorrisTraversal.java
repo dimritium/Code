@@ -17,17 +17,19 @@ class MorrisTraversal{
         }
         current = root;
         while(current!=null){
+
             if(current.left == null){
+                
                 System.out.print(current.data+" ");
                 current = current.right;
-        }
-        else{
-            pre = current.left;
-            while(pre.right!=null && pre.right!=current)
-                pre = pre.right;
-            if(pre.right == null){
-                pre.right = current;
-                current = current.left;
+            }
+            else{
+                pre = current.left;
+                while(pre.right!=null && pre.right!=current)
+                    pre = pre.right;
+                if(pre.right == null){
+                    pre.right = current;
+                    current = current.left;
             }
             else{
                 pre.right = null;

@@ -11,6 +11,7 @@ class Node{
 }
 class BinTreeS{
     Node root = null;
+    int count = 0;
     public boolean search(Node node, int key){
         if(node == null)
             return false;
@@ -66,6 +67,14 @@ class BinTreeS{
         }
         return root;
     }
+    public int nodes(Node node){
+        if(node == null)
+            return 0;
+        nodes(node.left);
+        count++;
+        nodes(node.right);
+        return count;
+    }
     public static void main(String[] args) {
         BinTreeS tree = new BinTreeS();
         tree.root = new Node(50); 
@@ -81,5 +90,6 @@ class BinTreeS{
         // tree.traverse(tree.root);
         tree.delete(tree.root, 50);
         tree.traverse(tree.root);
+        System.out.println("count"+tree.nodes(tree.root));
     }
 }

@@ -1,2 +1,2 @@
-# Codes
-Personal codes
+# Code
+Coding stuff

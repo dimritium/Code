@@ -1,44 +1,43 @@
 import java.io.*;
 import java.util.*;
-import java.math.*;
-class Main
-{
-	public static void main(String[] args)throws IOException {
-        Scanner sc = new Scanner(System.in);
-        String inp;
-        int tc = sc.nextInt();
-        inp = sc.next();
-        char[] inp_arr = inp.toCharArray();
-        int max_pal = inp_arr.length;
-        int cur_pal = 0, pal_first_index = 0;
-            
-            for(int i = 0; i<inp_arr.length && max_pal > cur_pal; i++){
-                int first = i;
-                int last = inp.lastIndexOf(inp_arr[i]);
-                int lastcl = last;
-                while(first!=last){
-                    for(;first<last && inp_arr[first] == inp_arr[last];first++,last--);
-                    
-                    if(first-last == 1 || last==first){
-                       if(cur_pal<(lastcl-i+1))
-                            pal_first_index = i;
-                        cur_pal = Math.max(cur_pal,(lastcl-i+1));
 
-                    }
-                    try{
-                        last = inp.substring(i,lastcl).lastIndexOf(inp_arr[i])+i;
-                        lastcl = last;
-                        first = i;
-                    }
-                    catch(Exception StringIndexOutOfBoundsException){
-                        break;
-                    }
-                }
-                    max_pal = max_pal-1;                                
+class Main{
+    HashMap<Character,Integer> conv = new HashMap<Character,Integer>(){
+        {
+        put('I',1);
+        put('V',5);
+        put('X',10);
+        put('L',50);
+        put('C',100);
+        put('D',500);
+        put('M',1000);
+        };
+    };
+    public int conR(String s){
+        char[] inp = s.toCharArray();
+        int len = inp.length;
+        int sum = conv.get(inp[len-1]);
+        for(int i = len-2; i>=0; i--){
+            if(conv.get(inp[i])<conv.get(inp[i+1])){
+                sum-=conv.get(inp[i]);
             }
-                if(cur_pal == 0 )
-                    cur_pal = 1;
-                System.out.println(cur_pal);
-                System.out.println(inp.substring(pal_first_index,pal_first_index+cur_pal));
+            else{
+                sum+=conv.get(inp[i]);
+            }
         }
+        return sum;
+    }
+    public static void main(String[] args) {
+        Main obj = new Main();
+        Scanner sc = new Scanner(System.in);
+        int tc = sc.nextInt();
+        int c = 1;
+        while(tc!=0){
+            tc-=1;
+            String s = sc.next();
+            System.out.println("Case #"+c+": "+obj.conR(s));
+        	c++;
+        	
+        }
+    }
 }

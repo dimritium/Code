@@ -4,4 +4,447 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Anag.py	../Anag.py	1;"	kind:file	line:1
+BFS	../bfs.py	/^    def BFS(self, s):$/;"	kind:member	line:10
+Graph	../bfs.py	/^class Graph:$/;"	kind:class	line:3
+Graph	../kruskal.py	/^class Graph:$/;"	kind:class	line:2
+LinkList	../LinkedList.py	/^class LinkList:$/;"	kind:class	line:6
+LinkList	../reverseLLR.py	/^    LinkList = LinkedList()$/;"	kind:variable	line:44
+LinkedList	../reverseLLR.py	/^class LinkedList:$/;"	kind:class	line:6
+LinkedList.py	../LinkedList.py	1;"	kind:file	line:1
+Node	../LinkedList.py	/^class Node:$/;"	kind:class	line:1
+Node	../diameter.py	/^class Node:$/;"	kind:class	line:1
+Node	../ll.py	/^class Node(object):$/;"	kind:class	line:1
+Node	../reverseLLR.py	/^class Node:$/;"	kind:class	line:1
+Tree	../diameter.py	/^class Tree:    $/;"	kind:class	line:7
+__init__	../LinkedList.py	/^    def __init__(self):$/;"	kind:member	line:7
+__init__	../LinkedList.py	/^    def __init__(self, data):$/;"	kind:member	line:2
+__init__	../bfs.py	/^    def __init__(self):$/;"	kind:member	line:4
+__init__	../diameter.py	/^    def __init__(self,data=None):$/;"	kind:member	line:2
+__init__	../kruskal.py	/^    def __init__(self,vertices):$/;"	kind:member	line:3
+__init__	../ll.py	/^    def __init__(self, data=None, next=None):$/;"	kind:member	line:2
+__init__	../reverseLLR.py	/^    def __init__(self):$/;"	kind:member	line:7
+__init__	../reverseLLR.py	/^    def __init__(self, data = 0):$/;"	kind:member	line:2
+__str__	../ll.py	/^    def __str__(self):$/;"	kind:member	line:11
+a	../divgold.py	/^    a = ''$/;"	kind:variable	line:14
+ad	../tcs1.py	/^    ad = ad+16$/;"	kind:variable	line:6
+ad	../tcs1.py	/^ad = 22$/;"	kind:variable	line:1
+add	../gs2.py	/^        add = min(k\/\/lis[i][0],lis[i][1])$/;"	kind:variable	line:14
+addEdge	../bfs.py	/^    def addEdge(self, u, v):$/;"	kind:member	line:7
+addEdge	../kruskal.py	/^    def addEdge(self,u,v,w):$/;"	kind:member	line:7
+anag.py	../anag.py	1;"	kind:file	line:1
+ans	../divgold.py	/^    ans = min(c)$/;"	kind:variable	line:13
+append	../LinkedList.py	/^    def append(self, new_data):$/;"	kind:member	line:15
+aug1.py	../aug1.py	1;"	kind:file	line:1
+aux	../cntsort.py	/^aux=[0]*(max_e+1)$/;"	kind:variable	line:4
+b_w	../cf2.py	/^b_w = math.ceil(m\/a)$/;"	kind:variable	line:4
+bfs.py	../bfs.py	1;"	kind:file	line:1
+bind	../reverseLLR.py	/^    def bind(self, head, temp):$/;"	kind:member	line:39
+c	../divgold.py	/^    c = []$/;"	kind:variable	line:5
+car	../cf1.py	/^    car = max(lis[i]-8,0)$/;"	kind:variable	line:9
+car	../cf1.py	/^car = 0$/;"	kind:variable	line:3
+cc1.py	../cc1.py	1;"	kind:file	line:1
+ccMay17-1.py	../ccMay17-1.py	1;"	kind:file	line:1
+ccQua17-2.py	../ccQua17-2.py	1;"	kind:file	line:1
+cdf1.py	../cdf1.py	1;"	kind:file	line:1
+cf1.py	../cf1.py	1;"	kind:file	line:1
+cf2.py	../cf2.py	1;"	kind:file	line:1
+cf3.py	../cf3.py	1;"	kind:file	line:1
+cf4.py	../cf4.py	1;"	kind:file	line:1
+cf5.py	../cf5.py	1;"	kind:file	line:1
+ch.py	../ch.py	1;"	kind:file	line:1
+cnt1	../cc1.py	/^    cnt1=0$/;"	kind:variable	line:37
+cnt2	../cc1.py	/^    cnt2=0$/;"	kind:variable	line:42
+cnt_max	../ccQua17-2.py	/^def cnt_max(lis, max_no):$/;"	kind:function	line:24
+cntsort.py	../cntsort.py	1;"	kind:file	line:1
+count	../tcs3.py	/^        count = count+1$/;"	kind:variable	line:58
+count	../tcs3.py	/^count = 0$/;"	kind:variable	line:51
+cur_pos	../strin.py	/^    cur_pos = 0$/;"	kind:variable	line:7
+cur_pos	../strin.py	/^    cur_pos = n-1$/;"	kind:variable	line:28
+custom.py	../custom.py	1;"	kind:file	line:1
+day	../cf1.py	/^        day = i$/;"	kind:variable	line:14
+day	../cf1.py	/^day = 0$/;"	kind:variable	line:4
+di	../july4.py	/^di = []$/;"	kind:variable	line:2
+diameter	../diameter.py	/^    def diameter(self,root):$/;"	kind:member	line:26
 diameter.py	../diameter.py	1;"	kind:file	line:1
+dic	../Anag.py	/^    dic = {}$/;"	kind:variable	line:5
+dic	../anag.py	/^    dic = {}$/;"	kind:variable	line:5
+dic	../cc1.py	/^    dic = {}$/;"	kind:variable	line:6
+dic2	../Anag.py	/^    dic2 = {}$/;"	kind:variable	line:6
+dic2	../anag.py	/^    dic2 = {}$/;"	kind:variable	line:6
+dic_t	../cc1.py	/^    dic_t = {}$/;"	kind:variable	line:7
+diff	../wc1.py	/^diff = abs(sum1-sum2)$/;"	kind:variable	line:12
+divgold.py	../divgold.py	1;"	kind:file	line:1
+do_not_consider	../nag1.py	/^do_not_consider = set([])$/;"	kind:variable	line:21
+do_not_consider_	../nag1.py	/^do_not_consider_ = set([])$/;"	kind:variable	line:13
+el	../cf4.py	/^el = lis[k-1]$/;"	kind:variable	line:6
+eon.py	../eon.py	1;"	kind:file	line:1
+f	../aug1.py	/^            f = 1$/;"	kind:variable	line:19
+f	../aug1.py	/^    f = 0$/;"	kind:variable	line:15
+f	../cf1.py	/^        f = 1$/;"	kind:variable	line:13
+f	../cf1.py	/^f = 0$/;"	kind:variable	line:5
+f	../xsq.py	/^            f = 1$/;"	kind:variable	line:10
+f	../xsq.py	/^    f = 0$/;"	kind:variable	line:5
+f_level_r	../tcs21.py	/^f_level_r = sec_level_r + total$/;"	kind:variable	line:17
+final_list	../nag1.py	/^final_list = []$/;"	kind:variable	line:9
+final_list	../nag1.py	/^final_list = final_list[::-1]$/;"	kind:variable	line:20
+final_list	../nag1.py	/^final_list = list(sorted(final_list,key = lambda x:x[2]))$/;"	kind:variable	line:12
+final_res	../july4.py	/^final_res = []$/;"	kind:variable	line:16
+findFirst	../iscc3.py	/^def findFirst(lis,lis_q):$/;"	kind:function	line:1
+findparent	../kruskal.py	/^    def findparent(self,parent,i):$/;"	kind:member	line:10
+fl	../Anag.py	/^            fl = 1$/;"	kind:variable	line:22
+fl	../Anag.py	/^    fl = 0$/;"	kind:variable	line:18
+fl	../anag.py	/^            fl = 1$/;"	kind:variable	line:21
+fl	../anag.py	/^    fl = 0$/;"	kind:variable	line:18
+fl	../iscc3.py	/^                    fl = 1$/;"	kind:variable	line:35
+fl	../iscc3.py	/^    fl = 0$/;"	kind:variable	line:14
+flag	../snakePro.py	/^                flag = 0$/;"	kind:variable	line:17
+flag	../snakePro.py	/^                flag = 0$/;"	kind:variable	line:19
+flag	../snakePro.py	/^                flag = 0$/;"	kind:variable	line:25
+flag	../snakePro.py	/^                flag = 1$/;"	kind:variable	line:23
+flag	../snakePro.py	/^    flag = 0$/;"	kind:variable	line:3
+found	../strin.py	/^                    found = 1$/;"	kind:variable	line:21
+found	../strin.py	/^                    found = 1$/;"	kind:variable	line:41
+found	../strin.py	/^    found = 0$/;"	kind:variable	line:30
+found	../strin.py	/^    found = 0$/;"	kind:variable	line:8
+g	../bfs.py	/^g = Graph()$/;"	kind:variable	line:23
+g	../kruskal.py	/^g = Graph(4)$/;"	kind:variable	line:46
+get_data	../ll.py	/^    def get_data(self):$/;"	kind:member	line:5
+get_next	../ll.py	/^    def get_next(self):$/;"	kind:member	line:7
+graph	../he1.py	/^graph = defaultdict()$/;"	kind:variable	line:3
+gs2.py	../gs2.py	1;"	kind:file	line:1
+gs3.py	../gs3.py	1;"	kind:file	line:1
+guests	../guests.py	/^            guests = max(cnt,guests)$/;"	kind:variable	line:13
+guests.py	../guests.py	1;"	kind:file	line:1
+h	../num2words.py	/^h = int(raw_input())$/;"	kind:variable	line:5
+h	../tcs21.py	/^h = int(h)$/;"	kind:variable	line:3
+h1	../nextPal.py	/^		h1=s[:len_\/2].strip()$/;"	kind:variable	line:10
+h1	../nextPal.py	/^		h1=s[:len_\/2].strip()$/;"	kind:variable	line:7
+h1rev	../nextPal.py	/^	h1rev=h1[::-1]$/;"	kind:variable	line:14
+h2	../nextPal.py	/^		h2=s[len_\/2+1:].strip()$/;"	kind:variable	line:12
+h2	../nextPal.py	/^		h2=s[len_\/2:].strip()$/;"	kind:variable	line:8
+hash_set	../nag1.py	/^hash_set = {}$/;"	kind:variable	line:3
+he1.py	../he1.py	1;"	kind:file	line:1
+heApr17_2.py	../heApr17_2.py	1;"	kind:file	line:1
+hrs	../num2words.py	/^hrs = ['','one ','two ','three ','four ','five ','six ','seven ','eight ','nine ','ten ','eleven ','twelve ','thirteen ','fourteen ','fifteen ','sixteen ','seventeen ','eighteen ','ninteen ','twenty ']$/;"	kind:variable	line:1
+i	../cc1.py	/^    i = 0$/;"	kind:variable	line:20
+i	../recsol.py	/^        i = min(n,m)$/;"	kind:variable	line:24
+i	../tcs3.py	/^i = 2$/;"	kind:variable	line:25
+i_time	../tcs21.py	/^i_time = h*60 + m$/;"	kind:variable	line:5
+iarcs1.py	../iarcs1.py	1;"	kind:file	line:1
+ind	../xsq.py	/^        ind = ord(s[i])-97 $/;"	kind:variable	line:7
+insert	../diameter.py	/^    def insert(self,root,s,data,i):$/;"	kind:member	line:8
+insert	../reverseLLR.py	/^    def insert(self, data):$/;"	kind:member	line:10
+iscc1.py	../iscc1.py	1;"	kind:file	line:1
+iscc2.py	../iscc2.py	1;"	kind:file	line:1
+iscc3.py	../iscc3.py	1;"	kind:file	line:1
+isprime	../tcs3.py	/^def isprime(n):$/;"	kind:function	line:1
+it	../tcs1.py	/^        it = it+1$/;"	kind:variable	line:13
+it	../tcs1.py	/^it = 0$/;"	kind:variable	line:8
+j	../cntsort.py	/^        j=j+1;$/;"	kind:variable	line:14
+j	../cntsort.py	/^j=1$/;"	kind:variable	line:6
+j	../recsol.py	/^        j = max(n,m)$/;"	kind:variable	line:25
+july4.py	../july4.py	1;"	kind:file	line:1
+k	../cf1.py	/^    k = k - lis[i]$/;"	kind:variable	line:11
+k	../gs2.py	/^k = int(input())$/;"	kind:variable	line:3
+k	../gs3.py	/^    k = int(input())$/;"	kind:variable	line:3
+kruskal	../kruskal.py	/^    def kruskal(self):$/;"	kind:member	line:26
+kruskal.py	../kruskal.py	1;"	kind:file	line:1
+l	../aug1.py	/^    l = 0$/;"	kind:variable	line:5
+l_w	../cf2.py	/^l_w = int(math.ceil((n*a)\/(a*a)))$/;"	kind:variable	line:3
+lcss.py	../lcss.py	1;"	kind:file	line:1
+len	../snakePro.py	/^    len = int(raw_input())$/;"	kind:variable	line:5
+len	../templela.py	/^    len = int(raw_input())$/;"	kind:variable	line:4
+len_	../nextPal.py	/^	len_=len(s)$/;"	kind:variable	line:5
+li	../ccQua17-2.py	/^        li = map(int, raw_input().split())$/;"	kind:variable	line:37
+lis	../aug1.py	/^    lis = list(map(int,input().split()))$/;"	kind:variable	line:4
+lis	../ccMay17-1.py	/^    lis = []$/;"	kind:variable	line:4
+lis	../ccQua17-2.py	/^    lis = []$/;"	kind:variable	line:35
+lis	../cf1.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../cf4.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../cntsort.py	/^lis = map(int, raw_input().split())$/;"	kind:variable	line:2
+lis	../diameter.py	/^    lis = []$/;"	kind:variable	line:41
+lis	../diameter.py	/^    lis = sorted(lis, key = lambda x: len(x[0]))$/;"	kind:variable	line:47
+lis	../eon.py	/^lis=[[]]*n$/;"	kind:variable	line:4
+lis	../gs2.py	/^lis = []$/;"	kind:variable	line:4
+lis	../gs2.py	/^lis = sorted(lis,key=lambda x:x[0])$/;"	kind:variable	line:7
+lis	../guests.py	/^    lis = map(int,input().split())$/;"	kind:variable	line:5
+lis	../heApr17_2.py	/^lis = map(int, raw_input().split())$/;"	kind:variable	line:4
+lis	../iarcs1.py	/^    lis = nstr.split()$/;"	kind:variable	line:10
+lis	../lcss.py	/^    lis = [[0]*(n+1)]*(m+1)$/;"	kind:variable	line:10
+lis	../nag1.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../recsol.py	/^lis = [0]*1000000$/;"	kind:variable	line:3
+lis	../snakePro.py	/^    lis = []$/;"	kind:variable	line:4
+lis	../sort.py	/^    lis = [0]*3$/;"	kind:variable	line:6
+lis	../strin.py	/^    lis = [0]*26$/;"	kind:variable	line:5
+lis	../tcs1.py	/^lis = []$/;"	kind:variable	line:2
+lis	../tcs3.py	/^lis = [0]*600000$/;"	kind:variable	line:15
+lis	../templela.py	/^    lis = map(int, raw_input().split())$/;"	kind:variable	line:5
+lis	../uva272.py	/^lis = []$/;"	kind:variable	line:2
+lis	../xsq.py	/^    lis = [0]*26$/;"	kind:variable	line:3
+lis1	../sort.py	/^    lis1 = map(int,input().split())$/;"	kind:variable	line:7
+lis1	../tcs2.py	/^lis1 = map(int,raw_input().split())$/;"	kind:variable	line:3
+lis2	../aug1.py	/^    lis2 = [0 for _ in range(11)]$/;"	kind:variable	line:7
+lis2	../guests.py	/^    lis2 = map(int,input().split())$/;"	kind:variable	line:6
+lis2	../sort.py	/^    lis2 = []$/;"	kind:variable	line:8
+lis2	../tcs2.py	/^lis2 = map(int,raw_input().split())$/;"	kind:variable	line:4
+lis2	../tcs3.py	/^lis2 = []$/;"	kind:variable	line:21
+lis3	../tcs3.py	/^lis3 =[]$/;"	kind:variable	line:27
+lis_imp	../mineq.py	/^lis_imp = []$/;"	kind:variable	line:4
+lis_imp	../mineq.py	/^lis_imp = lis_imp.reverse()$/;"	kind:variable	line:13
+lis_imp	../mineq.py	/^lis_imp = sorted(lis_imp)$/;"	kind:variable	line:12
+lis_p	../iscc3.py	/^    lis_p = [0]*26$/;"	kind:variable	line:16
+lis_q	../iscc3.py	/^    lis_q = [0]*26$/;"	kind:variable	line:17
+ll.py	../ll.py	1;"	kind:file	line:1
+llist	../LinkedList.py	/^    llist = LinkList()$/;"	kind:variable	line:32
+log_exp	../heApr17_2.py	/^log_exp = (float)(log_sum\/n)$/;"	kind:variable	line:8
+log_sum	../heApr17_2.py	/^log_sum = 0$/;"	kind:variable	line:5
+luck	../mineq.py	/^luck = 0$/;"	kind:variable	line:3
+m	../iscc2.py	/^    m = int(input())$/;"	kind:variable	line:4
+m	../num2words.py	/^m = int(raw_input())$/;"	kind:variable	line:6
+m	../tcs21.py	/^m = int(m)$/;"	kind:variable	line:4
+makeLisP	../iscc3.py	/^def makeLisP(lis,p):$/;"	kind:function	line:7
+max_diff_allowed	../wc1.py	/^max_diff_allowed = 27 - sum2$/;"	kind:variable	line:15
+max_e	../cntsort.py	/^max_e=max(lis)$/;"	kind:variable	line:3
+max_ele	../tcs2.py	/^    max_ele = max_ele*(-2)*k $/;"	kind:variable	line:17
+max_ele	../tcs2.py	/^    max_ele = max_ele*(2)*k$/;"	kind:variable	line:15
+max_ele	../tcs2.py	/^max_ele = max(lis2)$/;"	kind:variable	line:9
+max_no	../ccQua17-2.py	/^        max_no = max(max(i),max_no)$/;"	kind:variable	line:41
+max_no	../ccQua17-2.py	/^    max_no = 0$/;"	kind:variable	line:39
+max_so	../gs3.py	/^                max_so = max(max_so, p[j]-p[m]+profits[i-1][m])$/;"	kind:variable	line:16
+max_so	../gs3.py	/^            max_so = -1$/;"	kind:variable	line:14
+max_stocks	../gs2.py	/^max_stocks = 0$/;"	kind:variable	line:8
+mid	../nextPal.py	/^			mid=str(z%10)$/;"	kind:variable	line:50
+mid	../nextPal.py	/^		mid=s[len_\/2]$/;"	kind:variable	line:11
+min_ele	../tcs2.py	/^    min_ele = min_ele*(-2)*k$/;"	kind:variable	line:13
+min_ele	../tcs2.py	/^    min_ele = min_ele*(2)*k$/;"	kind:variable	line:11
+min_ele	../tcs2.py	/^min_ele = min(lis2)$/;"	kind:variable	line:8
+min_ele	../tcs2.py	/^min_ele = min(max_ele,min_ele)$/;"	kind:variable	line:18
+min_p	../num2words.py	/^        min_p = hrs[m]$/;"	kind:variable	line:13
+min_p	../num2words.py	/^        min_p = mins[m\/10]+hrs[m%10]$/;"	kind:variable	line:11
+min_p	../num2words.py	/^        min_p=hrs[sig]$/;"	kind:variable	line:28
+min_p	../num2words.py	/^        min_p=mins[sig\/10]+hrs[sig%10]$/;"	kind:variable	line:30
+mineq.py	../mineq.py	1;"	kind:file	line:1
+mins	../num2words.py	/^mins = ['','ten ','twenty ','thirty ','fourty ','fifty ']$/;"	kind:variable	line:3
+modi	../tcs2.py	/^modi = 2*k$/;"	kind:variable	line:2
+mstring	../iarcs1.py	/^    mstring = mstring.strip() $/;"	kind:variable	line:8
+mstring	../iarcs1.py	/^    mstring = re.sub(r'[\\W]+',r' ',mstring)$/;"	kind:variable	line:7
+mstring	../iarcs1.py	/^    mstring = str(raw_input()).lower()$/;"	kind:variable	line:6
+n	../aug1.py	/^    n = int(input())$/;"	kind:variable	line:3
+n	../cc1.py	/^    n = int(input())$/;"	kind:variable	line:3
+n	../cntsort.py	/^n = int(raw_input())$/;"	kind:variable	line:1
+n	../divgold.py	/^    n = int(raw_input())$/;"	kind:variable	line:3
+n	../eon.py	/^n=int(raw_input())$/;"	kind:variable	line:3
+n	../gs3.py	/^    n = int(input())$/;"	kind:variable	line:4
+n	../guests.py	/^    n = int(input())$/;"	kind:variable	line:4
+n	../heApr17_2.py	/^n = int(raw_input())$/;"	kind:variable	line:3
+n	../iarcs1.py	/^n = int(raw_input())$/;"	kind:variable	line:3
+n	../nag1.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../recsum.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../sort.py	/^    n = int(input())$/;"	kind:variable	line:5
+n	../strin.py	/^    n = int(raw_input())$/;"	kind:variable	line:3
+n	../tcs1.py	/^n = int(input())$/;"	kind:variable	line:7
+n	../tcs3.py	/^n = int(raw_input())$/;"	kind:variable	line:55
+n	../uva11547.py	/^    n = (x*63+7492)*5 - 498$/;"	kind:variable	line:4
+n	../uva11547.py	/^    n = abs(n)$/;"	kind:variable	line:5
+n	../uva11547.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../wc1.py	/^n = str(raw_input())$/;"	kind:variable	line:8
+n_int	../wc1.py	/^n_int = map(int,n)$/;"	kind:variable	line:9
+n_lis	../cf4.py	/^n_lis = [0]*101$/;"	kind:variable	line:3
+n_lis	../strin.py	/^    n_lis  = lis$/;"	kind:variable	line:11
+nag1.py	../nag1.py	1;"	kind:file	line:1
+new	../cntsort.py	/^    new=sort_lis[i]$/;"	kind:variable	line:19
+new_val	../heApr17_2.py	/^    new_val = new_val+1$/;"	kind:variable	line:11
+new_val	../heApr17_2.py	/^new_val = int(math.ceil(math.pow(10,log_exp)))$/;"	kind:variable	line:9
+next	../recsol.py	/^def next(n):$/;"	kind:function	line:4
+nextPal.py	../nextPal.py	1;"	kind:file	line:1
+node	../ll.py	/^node = Node(5)$/;"	kind:variable	line:14
+nstr	../iarcs1.py	/^    nstr = re.sub(r'[.|\\'|,|;|:]',r'',mstring)$/;"	kind:variable	line:9
+nth_down	../july4.py	/^nth_down = []$/;"	kind:variable	line:8
+num1	../wc1.py	/^num1 = int(n[:3])$/;"	kind:variable	line:13
+num2	../wc1.py	/^        num2 = 1$/;"	kind:variable	line:23
+num2	../wc1.py	/^    num2 = 1$/;"	kind:variable	line:30
+num2	../wc1.py	/^    num2 = format(num2,'03')$/;"	kind:variable	line:26
+num2	../wc1.py	/^    num2 = format(num2,'03')$/;"	kind:variable	line:33
+num2	../wc1.py	/^num2 = int(n[3:])$/;"	kind:variable	line:14
+num2words.py	../num2words.py	1;"	kind:file	line:1
+p	../gs3.py	/^    p = list(map(int,input().split()))$/;"	kind:variable	line:5
+p	../iscc3.py	/^                    p = p[:i] + p[i:].replace(p[i],q[i])$/;"	kind:variable	line:32
+p	../iscc3.py	/^                p = p[:i] + p[i:].replace(p[i],to_rep)$/;"	kind:variable	line:29
+palin	../rec1.py	/^def palin(s):$/;"	kind:function	line:7
+parser.py	../parser.py	1;"	kind:file	line:1
+prev	../cntsort.py	/^    prev=new/;"	kind:variable	line:23
+prev	../cntsort.py	/^prev=-1$/;"	kind:variable	line:16
+print_list	../LinkedList.py	/^    def print_list(self):$/;"	kind:member	line:25
+profits	../gs3.py	/^    profits = [[0]*(n+1) for _ in range(n+1)]$/;"	kind:variable	line:7
+push	../LinkedList.py	/^    def push(self, new_data):$/;"	kind:member	line:10
+py1.py	../py1.py	1;"	kind:file	line:1
+q	../divgold.py	/^            q = list(s)$/;"	kind:variable	line:9
+q	../divgold.py	/^            q = q[0:i]+q[i+1:n]$/;"	kind:variable	line:10
+q	../divgold.py	/^            q = q[0:j]+[val]+q[j:n]$/;"	kind:variable	line:11
+q	../he1.py	/^q = int(input())$/;"	kind:variable	line:15
+r	../aug1.py	/^    r = n-1$/;"	kind:variable	line:6
+rec	../recsol.py	/^def rec(n):$/;"	kind:function	line:10
+rec1.py	../rec1.py	1;"	kind:file	line:1
+recsol.py	../recsol.py	1;"	kind:file	line:1
+recsum.py	../recsum.py	1;"	kind:file	line:1
+remD.py	../remD.py	1;"	kind:file	line:1
+rem_index	../strin.py	/^                    rem_index = s.index(chr(i+65))$/;"	kind:variable	line:38
+rem_index	../strin.py	/^                    rem_index = s.rindex(chr(i+65))$/;"	kind:variable	line:19
+remove	../remD.py	/^def remove(s):$/;"	kind:function	line:2
+res	../ccMay17-1.py	/^    res = lis.count('m') - lis.count('s')$/;"	kind:variable	line:13
+res	../cf4.py	/^res = 0$/;"	kind:variable	line:7
+res	../cf5.py	/^res = ''$/;"	kind:variable	line:6
+res	../iarcs1.py	/^    res = res+lis$/;"	kind:variable	line:11
+res	../iarcs1.py	/^res = []$/;"	kind:variable	line:4
+res	../iarcs1.py	/^res = list(set(res))$/;"	kind:variable	line:12
+res	../nag1.py	/^res = 0$/;"	kind:variable	line:22
+res	../recsol.py	/^            res = max(res,rec(i))$/;"	kind:variable	line:28
+res	../recsol.py	/^        res = 0$/;"	kind:variable	line:26
+res	../sub.py	/^res = abs(n-m)$/;"	kind:variable	line:2
+res	../uva11547.py	/^    res = n\/\/10$/;"	kind:variable	line:6
+res2_str	../strin.py	/^                    res2_str = s[:rem_index]+s[rem_index+1:cur_pos+1]+s[rem_index]+s[cur_pos+1:]$/;"	kind:variable	line:39
+res2_str	../strin.py	/^        res2_str = s$/;"	kind:variable	line:47
+res2_str	../strin.py	/^    res2_str = ''$/;"	kind:variable	line:29
+res_pre	../nag1.py	/^res_pre = 0$/;"	kind:variable	line:14
+res_str	../strin.py	/^                    res_str = s[:cur_pos]+s[rem_index]+s[cur_pos:rem_index]+s[rem_index+1:]$/;"	kind:variable	line:20
+res_str	../strin.py	/^        res_str = s$/;"	kind:variable	line:26
+res_str	../strin.py	/^    res_str = ''$/;"	kind:variable	line:6
+rev	../rec1.py	/^def rev(s):$/;"	kind:function	line:1
+reverseLL	../reverseLLR.py	/^    def reverseLL(self):$/;"	kind:member	line:34
+reverseLLR.py	../reverseLLR.py	1;"	kind:file	line:1
+reverseUtil	../reverseLLR.py	/^    def reverseUtil(self, cur, prev):$/;"	kind:member	line:26
+root	../diameter.py	/^    root = Node(r)$/;"	kind:variable	line:39
+s	../Anag.py	/^    s = str(input())$/;"	kind:variable	line:3
+s	../anag.py	/^    s = str(input())$/;"	kind:variable	line:3
+s	../cc1.py	/^    s = str(input())$/;"	kind:variable	line:4
+s	../ccMay17-1.py	/^    s = str(raw_input())$/;"	kind:variable	line:3
+s	../cf3.py	/^    s = str(input())$/;"	kind:variable	line:3
+s	../cf5.py	/^s = re.sub(vowels,'',s)$/;"	kind:variable	line:4
+s	../cf5.py	/^s = s.lower()$/;"	kind:variable	line:5
+s	../cf5.py	/^s = str(input())$/;"	kind:variable	line:2
+s	../divgold.py	/^    s = str(raw_input())$/;"	kind:variable	line:4
+s	../lcss.py	/^                s = max(s,lis[i][j])$/;"	kind:variable	line:21
+s	../lcss.py	/^    s = 0$/;"	kind:variable	line:15
+s	../nextPal.py	/^	s=str(raw_input())$/;"	kind:variable	line:4
+s	../rec1.py	/^s = 4/;"	kind:variable	line:15
+s	../remD.py	/^    s = str(input())$/;"	kind:variable	line:14
+s	../snakePro.py	/^    s = s.replace('.','')$/;"	kind:variable	line:7
+s	../snakePro.py	/^    s = str(raw_input())$/;"	kind:variable	line:6
+s	../strin.py	/^    s = str(raw_input())$/;"	kind:variable	line:4
+s	../string.py	/^    s = str(input())$/;"	kind:variable	line:4
+s	../tcs3.py	/^    s = s+i$/;"	kind:variable	line:33
+s	../tcs3.py	/^s =0$/;"	kind:variable	line:31
+s	../templela.py	/^    s = []$/;"	kind:variable	line:3
+s	../xsq.py	/^    s = str(input())$/;"	kind:variable	line:4
+s1	../lcss.py	/^    s1 = list(map(str,input().split()))$/;"	kind:variable	line:5
+s2	../Anag.py	/^    s2 = str(input())$/;"	kind:variable	line:4
+s2	../anag.py	/^    s2 = str(input())$/;"	kind:variable	line:4
+s2	../lcss.py	/^    s2 = list(map(str,input().split()))$/;"	kind:variable	line:6
+s2	../string.py	/^    s2 = str(input())$/;"	kind:variable	line:5
+samesnak.py	../samesnak.py	1;"	kind:file	line:1
+sec	../ll.py	/^sec = Node(10)$/;"	kind:variable	line:15
+sec_level	../tcs21.py	/^sec_level = i_time + total$/;"	kind:variable	line:10
+sec_level_r	../tcs21.py	/^sec_level_r = total + sec_level$/;"	kind:variable	line:14
+set_next	../ll.py	/^    def set_next(self, next):$/;"	kind:member	line:9
+sig	../num2words.py	/^    sig = 60-m$/;"	kind:variable	line:26
+snakeCC.py	../snakeCC.py	1;"	kind:file	line:1
+snakeCC2.py	../snakeCC2.py	1;"	kind:file	line:1
+snakePro.py	../snakePro.py	1;"	kind:file	line:1
+sort.py	../sort.py	1;"	kind:file	line:1
+sort_lis	../cntsort.py	/^sort_lis=[0]*(n+1)$/;"	kind:variable	line:5
+stocks	../gs2.py	/^stocks = list(map(int,input().split()))$/;"	kind:variable	line:2
+strin.py	../strin.py	1;"	kind:file	line:1
+string.py	../string.py	1;"	kind:file	line:1
+su	../recsol.py	/^su=0$/;"	kind:variable	line:2
+su	../tcs3.py	/^    su = su+lis2[i]$/;"	kind:variable	line:39
+su	../tcs3.py	/^su = lis2[0]$/;"	kind:variable	line:28
+sub.py	../sub.py	1;"	kind:file	line:1
+sum1	../wc1.py	/^        sum1 = sum_(num1)$/;"	kind:variable	line:22
+sum1	../wc1.py	/^    sum1 = sum_(num1)$/;"	kind:variable	line:29
+sum1	../wc1.py	/^sum1 = sum(n_int[:3])$/;"	kind:variable	line:10
+sum2	../wc1.py	/^sum2 = sum(n_int[3:])$/;"	kind:variable	line:11
+sum_	../wc1.py	/^def sum_(num):$/;"	kind:function	line:1
+sum_prime	../tcs3.py	/^sum_prime = 0$/;"	kind:variable	line:20
+t	../aug1.py	/^t = int(input())$/;"	kind:variable	line:1
+t	../cc1.py	/^    t = str(input())$/;"	kind:variable	line:5
+t	../cc1.py	/^t = int(input())$/;"	kind:variable	line:1
+t	../divgold.py	/^t = int(raw_input())$/;"	kind:variable	line:1
+t	../gs2.py	/^t = int(input())$/;"	kind:variable	line:1
+t	../gs3.py	/^t = int(input())$/;"	kind:variable	line:1
+t	../guests.py	/^t = int(input())$/;"	kind:variable	line:2
+t	../iscc1.py	/^t = int(input())$/;"	kind:variable	line:1
+t	../iscc2.py	/^t = int(input())$/;"	kind:variable	line:1
+t	../iscc3.py	/^t = int(input())$/;"	kind:variable	line:12
+t	../lcss.py	/^t = int(input())$/;"	kind:variable	line:2
+t	../tcs21.py	/^t = str(raw_input())$/;"	kind:variable	line:1
+t	../xsq.py	/^t = int(input())$/;"	kind:variable	line:1
+tc	../Anag.py	/^tc = int(input())$/;"	kind:variable	line:1
+tc	../anag.py	/^tc = int(input())$/;"	kind:variable	line:2
+tc	../ccMay17-1.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../ccQua17-2.py	/^tc = int(raw_input())$/;"	kind:variable	line:32
+tc	../cf3.py	/^tc = int(input())$/;"	kind:variable	line:1
+tc	../nextPal.py	/^tc=int(input())$/;"	kind:variable	line:1
+tc	../remD.py	/^tc = int(input())$/;"	kind:variable	line:12
+tc	../samesnak.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../snakeCC.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../snakeCC2.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../snakePro.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../sort.py	/^tc = int(input())$/;"	kind:variable	line:2
+tc	../strin.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tc	../string.py	/^tc = int(input())$/;"	kind:variable	line:2
+tc	../templela.py	/^tc = int(raw_input())$/;"	kind:variable	line:1
+tcs1.py	../tcs1.py	1;"	kind:file	line:1
+tcs2.py	../tcs2.py	1;"	kind:file	line:1
+tcs21.py	../tcs21.py	1;"	kind:file	line:1
+tcs28-1.py	../tcs28-1.py	1;"	kind:file	line:1
+tcs3.py	../tcs3.py	1;"	kind:file	line:1
+tcs5.py	../tcs5.py	1;"	kind:file	line:1
+temp	../tcs2.py	/^    temp = temp + lis1[i]*lis2[i]$/;"	kind:variable	line:7
+temp	../tcs2.py	/^temp = 0$/;"	kind:variable	line:5
+templela.py	../templela.py	1;"	kind:file	line:1
+third	../ll.py	/^third = Node(15)$/;"	kind:variable	line:16
+ti	../july4.py	/^ti = []$/;"	kind:variable	line:3
+time	../ccQua17-2.py	/^        time = time + 1$/;"	kind:variable	line:55
+time	../ccQua17-2.py	/^    time = 0$/;"	kind:variable	line:46
+time	../guests.py	/^                time = lis[i]$/;"	kind:variable	line:12
+tmp	../cntsort.py	/^        tmp = tmp-1$/;"	kind:variable	line:15
+tmp	../cntsort.py	/^    tmp = aux[i]$/;"	kind:variable	line:11
+to_rep	../iscc3.py	/^            to_rep = findFirst(lis_p,lis_q)$/;"	kind:variable	line:25
+total	../tcs21.py	/^total = (f_level_r\/\/60 + 1)*60 - f_level_r + 5*(f_level_r\/\/60 - 1) + 2 + total$/;"	kind:variable	line:18
+total	../tcs21.py	/^total = (i_time\/\/60+1)*60 - i_time + 5*(i_time\/\/60 - 1) + 2$/;"	kind:variable	line:7
+total	../tcs21.py	/^total = (sec_level\/\/120 + 1)*120 - sec_level + 5*(sec_level\/\/120 - 1) + 2 + total$/;"	kind:variable	line:11
+total	../tcs21.py	/^total = (sec_level_r\/\/120 + 1)*120 - sec_level_r + 5*(sec_level_r\/\/120 - 1) + 2 + total$/;"	kind:variable	line:16
+total_down	../july4.py	/^total_down = []$/;"	kind:variable	line:12
+total_time	../tcs21.py	/^total_time = 24*60 - i_time$/;"	kind:variable	line:6
+traverse	../diameter.py	/^    def traverse(self,root):$/;"	kind:member	line:19
+traverse	../reverseLLR.py	/^    def traverse(self, head):$/;"	kind:member	line:20
+tree	../diameter.py	/^    tree = Tree()$/;"	kind:variable	line:40
+union	../kruskal.py	/^    def union(self,parent,rank,x,y):$/;"	kind:member	line:15
+uva11547.py	../uva11547.py	1;"	kind:file	line:1
+uva272.py	../uva272.py	1;"	kind:file	line:1
+val	../divgold.py	/^        val = s[i]$/;"	kind:variable	line:7
+verified	../ccQua17-2.py	/^def verified(x, y, n, m):$/;"	kind:function	line:18
+vowels	../cf5.py	/^vowels = re.compile(r'[aAeEiIoOuUyY]')$/;"	kind:variable	line:3
+wc1.py	../wc1.py	1;"	kind:file	line:1
+x	../iscc2.py	/^        x = x+1$/;"	kind:variable	line:8
+x	../iscc2.py	/^    x = x*(m\/\/3)$/;"	kind:variable	line:5
+x	../nextPal.py	/^						x="0"+x$/;"	kind:variable	line:28
+x	../nextPal.py	/^						x="0"+x$/;"	kind:variable	line:54
+x	../nextPal.py	/^						x=str(int(h1[i])+1)+x$/;"	kind:variable	line:30
+x	../nextPal.py	/^						x=str(int(h1[i])+1)+x$/;"	kind:variable	line:56
+x	../nextPal.py	/^				x=h1[:-1]+str(z)$/;"	kind:variable	line:22
+x	../nextPal.py	/^				x=h1[:i]+x$/;"	kind:variable	line:32
+x	../nextPal.py	/^				x=h1[:i]+x$/;"	kind:variable	line:58
+x	../nextPal.py	/^	x=""$/;"	kind:variable	line:3
+x	../uva11547.py	/^    x = int(input())$/;"	kind:variable	line:3
+x_axis	../ccQua17-2.py	/^    x_axis = []$/;"	kind:variable	line:42
+x_points	../ccQua17-2.py	/^x_points = [-1,-1,-1, 0,0, 1,1,1]$/;"	kind:variable	line:30
+xsq.py	../xsq.py	1;"	kind:file	line:1
+xyAxis	../ccQua17-2.py	/^def xyAxis(lis, max_no, n, m):$/;"	kind:function	line:1
+y	../iscc2.py	/^    y = y*(m\/\/3)$/;"	kind:variable	line:6
+y_axis	../ccQua17-2.py	/^    y_axis = []$/;"	kind:variable	line:43
+y_points	../ccQua17-2.py	/^y_points = [-1, 0, 1,-1,1,-1,0,1]$/;"	kind:variable	line:31
+z	../mineq.py	/^z = 0$/;"	kind:variable	line:14
+z	../nextPal.py	/^			z=int(h1[-1])+1$/;"	kind:variable	line:20
+z	../nextPal.py	/^			z=int(mid)+1$/;"	kind:variable	line:49

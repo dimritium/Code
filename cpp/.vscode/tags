@@ -1,0 +1,271 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+102B.py	../102B.py	1;"	kind:file	line:1
+118B.py	../118B.py	1;"	kind:file	line:1
+121A.py	../121A.py	1;"	kind:file	line:1
+124A.py	../124A.py	1;"	kind:file	line:1
+168A.py	../168A.py	1;"	kind:file	line:1
+208A.py	../208A.py	1;"	kind:file	line:1
+219A.py	../219A.py	1;"	kind:file	line:1
+230A.py	../230A.py	1;"	kind:file	line:1
+230B.py	../230B.py	1;"	kind:file	line:1
+237A.py	../237A.py	1;"	kind:file	line:1
+262B.py	../262B.py	1;"	kind:file	line:1
+266B.py	../266B.py	1;"	kind:file	line:1
+270A.py	../270A.py	1;"	kind:file	line:1
+27A.py	../27A.py	1;"	kind:file	line:1
+285A.py	../285A.py	1;"	kind:file	line:1
+298B.py	../298B.py	1;"	kind:file	line:1
+300A.py	../300A.py	1;"	kind:file	line:1
+320A.py	../320A.py	1;"	kind:file	line:1
+337A.py	../337A.py	1;"	kind:file	line:1
+339B.py	../339B.py	1;"	kind:file	line:1
+347A.py	../347A.py	1;"	kind:file	line:1
+347B.py	../347B.py	1;"	kind:file	line:1
+34B.py	../34B.py	1;"	kind:file	line:1
+352A.py	../352A.py	1;"	kind:file	line:1
+365B.py	../365B.py	1;"	kind:file	line:1
+372A.py	../372A.py	1;"	kind:file	line:1
+433A.py	../433A.py	1;"	kind:file	line:1
+433B.py	../433B.py	1;"	kind:file	line:1
+43A.py	../43A.py	1;"	kind:file	line:1
+451B.py	../451B.py	1;"	kind:file	line:1
+456A.py	../456A.py	1;"	kind:file	line:1
+459A.py	../459A.py	1;"	kind:file	line:1
+459B.py	../459B.py	1;"	kind:file	line:1
+489C.py	../489C.py	1;"	kind:file	line:1
+4C.py	../4C.py	1;"	kind:file	line:1
+617B.py	../617B.py	1;"	kind:file	line:1
+75A.py	../75A.py	1;"	kind:file	line:1
+864A.py	../864A.py	1;"	kind:file	line:1
+864B.py	../864B.py	1;"	kind:file	line:1
+HeC17-2.py	../HeC17-2.py	1;"	kind:file	line:1
+a	../75A.py	/^a = str(input())$/;"	kind:variable	line:6
+ans	../237A.py	/^    ans = max(res,ans)$/;"	kind:variable	line:15
+ans	../237A.py	/^ans = 0$/;"	kind:variable	line:9
+ans	../451B.py	/^    ans = 'yes'$/;"	kind:variable	line:12
+ans_lis	../237A.py	/^ans_lis = []$/;"	kind:variable	line:6
+b	../75A.py	/^b = str(input())$/;"	kind:variable	line:7
+c	../459B.py	/^c = 0$/;"	kind:variable	line:4
+cc1.py	../cc1.py	1;"	kind:file	line:1
+cf13.py	../cf13.py	1;"	kind:file	line:1
+cf15.py	../cf15.py	1;"	kind:file	line:1
+coinGame.py	../coinGame.py	1;"	kind:file	line:1
+coll	../230A.py	/^coll = []$/;"	kind:variable	line:2
+coll	../230A.py	/^coll = sorted(coll,key=lambda x:x[1])$/;"	kind:variable	line:7
+count	../372A.py	/^    count = int(min(count,n\/\/2-1))$/;"	kind:variable	line:20
+count	../372A.py	/^    count = min(count,n\/\/2)$/;"	kind:variable	line:18
+count	../372A.py	/^count = 0$/;"	kind:variable	line:10
+d	../459A.py	/^        d = int(d)$/;"	kind:variable	line:20
+dic	../219A.py	/^dic = {}$/;"	kind:variable	line:2
+dic	../298B.py	/^dic = {}$/;"	kind:variable	line:2
+dic	../43A.py	/^dic = {}$/;"	kind:variable	line:2
+dic	../4C.py	/^dic = {}$/;"	kind:variable	line:2
+dic	../HeC17-2.py	/^dic = {}$/;"	kind:variable	line:4
+dic	../cc1.py	/^    dic = {}$/;"	kind:variable	line:4
+diff	../459B.py	/^diff = lis[n-1] - lis[0]$/;"	kind:variable	line:5
+distints	../864A.py	/^distints = 0$/;"	kind:variable	line:6
+end	../864B.py	/^    end = i$/;"	kind:variable	line:12
+findAns	../coinGame.py	/^def findAns(lis):$/;"	kind:function	line:1
+findNext	../121A.py	/^def findNext(a):$/;"	kind:function	line:1
+flag	../cc1.py	/^        flag = 0$/;"	kind:variable	line:12
+fnd	../347B.py	/^            fnd = 1$/;"	kind:variable	line:15
+fnd	../347B.py	/^fnd = 0$/;"	kind:variable	line:10
+fnd	../tempCodeRunnerFile.py	/^            fnd = 1$/;"	kind:variable	line:15
+fnd	../tempCodeRunnerFile.py	/^fnd = 0$/;"	kind:variable	line:10
+found	../230A.py	/^            found = 1$/;"	kind:variable	line:20
+found	../230A.py	/^    found = 0$/;"	kind:variable	line:14
+found	../230A.py	/^found = 1$/;"	kind:variable	line:10
+hun	../433A.py	/^hun = 0$/;"	kind:variable	line:3
+i	../320A.py	/^i = 0$/;"	kind:variable	line:3
+ind	../262B.py	/^ind = 0$/;"	kind:variable	line:3
+indexes	../27A.py	/^indexes = [False]*30002$/;"	kind:variable	line:3
+inp	../230B.py	/^inp = list(map(int,input().split()))$/;"	kind:variable	line:14
+inp	../298B.py	/^inp = str(input())$/;"	kind:variable	line:5
+isPoly	../270A.py	/^def isPoly(a):$/;"	kind:function	line:1
+j	../372A.py	/^    j = count$/;"	kind:variable	line:26
+k	../262B.py	/^        k = 0$/;"	kind:variable	line:10
+k	../372A.py	/^            k = 0$/;"	kind:variable	line:36
+k	../372A.py	/^            k = 0$/;"	kind:variable	line:41
+k	../372A.py	/^    k = 1$/;"	kind:variable	line:28
+kills	../230A.py	/^kills = 0$/;"	kind:variable	line:11
+l	../320A.py	/^l = len(s)$/;"	kind:variable	line:4
+last	../372A.py	/^    last = n-1$/;"	kind:variable	line:27
+last_e	../372A.py	/^last_e = lis[-1]$/;"	kind:variable	line:9
+le	../266B.py	/^le = len(pos_bys)$/;"	kind:variable	line:5
+lis	../237A.py	/^lis = []$/;"	kind:variable	line:2
+lis	../262B.py	/^    lis = sorted(lis)$/;"	kind:variable	line:18
+lis	../262B.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../27A.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../300A.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../337A.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../337A.py	/^lis = sorted(lis)$/;"	kind:variable	line:3
+lis	../339B.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../347A.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../347A.py	/^lis = list(map(str,lis))$/;"	kind:variable	line:5
+lis	../347A.py	/^lis = sorted(lis)$/;"	kind:variable	line:3
+lis	../347B.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../34B.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../34B.py	/^lis = sorted(lis)$/;"	kind:variable	line:3
+lis	../352A.py	/^lis = list(map(int,(input().split())))$/;"	kind:variable	line:2
+lis	../372A.py	/^lis = []$/;"	kind:variable	line:3
+lis	../372A.py	/^lis = sorted(lis)$/;"	kind:variable	line:8
+lis	../433A.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../433B.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../43A.py	/^lis = list(dic.keys())$/;"	kind:variable	line:9
+lis	../451B.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../456A.py	/^lis = []$/;"	kind:variable	line:3
+lis	../456A.py	/^lis = sorted(lis,key = lambda x:x[0])$/;"	kind:variable	line:7
+lis	../459B.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis	../459B.py	/^lis = list(sorted(lis))$/;"	kind:variable	line:3
+lis	../617B.py	/^lis = [i for i, ltr in enumerate(s) if ltr == '1']$/;"	kind:variable	line:3
+lis	../864A.py	/^lis = [0]*101$/;"	kind:variable	line:2
+lis	../HeC17-2.py	/^lis = [0]*100005$/;"	kind:variable	line:3
+lis	../HeC17-2.py	/^lis = dic.keys()$/;"	kind:variable	line:12
+lis	../coinGame.py	/^    lis = list(map(int,input().split()))$/;"	kind:variable	line:13
+lis	../tempCodeRunnerFile.py	/^lis = list(map(int,input().split()))$/;"	kind:variable	line:2
+lis2	../347B.py	/^lis2 = [0]*n$/;"	kind:variable	line:3
+lis2	../tempCodeRunnerFile.py	/^lis2 = [0]*n$/;"	kind:variable	line:3
+lis_ans	../230B.py	/^lis_ans = []$/;"	kind:variable	line:7
+lis_ans	../864B.py	/^lis_ans = []$/;"	kind:variable	line:9
+lis_ans	../HeC17-2.py	/^lis_ans = [-1]*100005$/;"	kind:variable	line:2
+lis_cap	../864B.py	/^lis_cap = []$/;"	kind:variable	line:3
+lis_primes	../230B.py	/^lis_primes = [True]*1000001$/;"	kind:variable	line:2
+lis_sec	../433B.py	/^lis_sec = sorted(lis)$/;"	kind:variable	line:3
+max_e	../HeC17-2.py	/^max_e = max(lis)           $/;"	kind:variable	line:13
+max_n	../489C.py	/^max_n = "".join(max_n)$/;"	kind:variable	line:37
+max_n	../489C.py	/^max_n = [0]*n$/;"	kind:variable	line:3
+max_n	../489C.py	/^max_n = map(str,max_n)$/;"	kind:variable	line:36
+min_diff	../337A.py	/^        min_diff = lis[i+n-1] - lis[i]$/;"	kind:variable	line:7
+min_diff	../337A.py	/^min_diff = 2**30$/;"	kind:variable	line:4
+min_n	../489C.py	/^min_n = "".join(min_n)$/;"	kind:variable	line:39
+min_n	../489C.py	/^min_n = [0]*n$/;"	kind:variable	line:4
+min_n	../489C.py	/^min_n = map(str,min_n)$/;"	kind:variable	line:38
+mset	../347B.py	/^mset = set([])$/;"	kind:variable	line:9
+mset	../tempCodeRunnerFile.py	/^mset = set([])$/;"	kind:variable	line:9
+n	../118B.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../118B.py	/^n = n+1$/;"	kind:variable	line:2
+n	../118B.py	/^n = n-1$/;"	kind:variable	line:13
+n	../219A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../230B.py	/^n = int(input())$/;"	kind:variable	line:13
+n	../237A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../27A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../300A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../347A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../347B.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../352A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../372A.py	/^n = int(input())$/;"	kind:variable	line:2
+n	../433A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../433B.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../43A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../451B.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../456A.py	/^n = int(input())$/;"	kind:variable	line:2
+n	../459B.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../4C.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../617B.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../864A.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../864B.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../HeC17-2.py	/^n = int(input())$/;"	kind:variable	line:1
+n	../coinGame.py	/^    n = int(input())$/;"	kind:variable	line:12
+n	../tempCodeRunnerFile.py	/^n = int(input())$/;"	kind:variable	line:1
+n_sum	../cf13.py	/^    n_sum = n_sum + b - a$/;"	kind:variable	line:6
+n_sum	../cf13.py	/^n_sum = 0$/;"	kind:variable	line:3
+neg_l	../300A.py	/^neg_l = []$/;"	kind:variable	line:4
+new_lis	../HeC17-2.py	/^        new_lis = list(filter(lambda y:y>=x,lis))$/;"	kind:variable	line:21
+new_s	../75A.py	/^new_s = int(remZ(a))+int(remZ(b))$/;"	kind:variable	line:10
+new_s	../cc1.py	/^                new_s = re.compile(r"["+s[dic[k][j]:dic[k][j+1]]+"]")$/;"	kind:variable	line:17
+no_times	../372A.py	/^    no_times = 0$/;"	kind:variable	line:29
+nof	../352A.py	/^nof = (su\/\/45)$/;"	kind:variable	line:4
+nos	../864A.py	/^    nos = []$/;"	kind:variable	line:13
+p	../459B.py	/^p = lis.count(lis[-1])$/;"	kind:variable	line:8
+p	../primes.py	/^p = [False]*16000000$/;"	kind:variable	line:2
+ph	../237A.py	/^    ph = lis[i][0]$/;"	kind:variable	line:16
+pick	../34B.py	/^pick = 0$/;"	kind:variable	line:5
+pm	../237A.py	/^    pm = lis[i][1]$/;"	kind:variable	line:17
+pos_bys	../266B.py	/^pos_bys = [i for i,ch in enumerate(s) if ch == 'B']$/;"	kind:variable	line:3
+pos_l	../300A.py	/^pos_l = []$/;"	kind:variable	line:5
+poss	../219A.py	/^        poss = 0$/;"	kind:variable	line:14
+poss	../219A.py	/^poss = 1 $/;"	kind:variable	line:9
+primes.py	../primes.py	1;"	kind:file	line:1
+q	../433B.py	/^q = int(input())$/;"	kind:variable	line:7
+q	../HeC17-2.py	/^q = int(input())$/;"	kind:variable	line:14
+r	../459B.py	/^r = lis.count(lis[0])$/;"	kind:variable	line:7
+remZ	../75A.py	/^def remZ(a):$/;"	kind:function	line:1
+req	../168A.py	/^req = int(math.ceil((n*y)\/100))$/;"	kind:variable	line:3
+req	../262B.py	/^req = k%2$/;"	kind:variable	line:16
+res	../102B.py	/^res = 0$/;"	kind:variable	line:9
+res	../237A.py	/^        res = 1$/;"	kind:variable	line:14
+res	../237A.py	/^res = 1$/;"	kind:variable	line:8
+res	../266B.py	/^res = ""$/;"	kind:variable	line:14
+res	../339B.py	/^res = 1$/;"	kind:variable	line:4
+res	../347B.py	/^res = 0$/;"	kind:variable	line:4
+res	../34B.py	/^res = 0$/;"	kind:variable	line:4
+res	../372A.py	/^    res = 0$/;"	kind:variable	line:25
+res	../617B.py	/^res = 1$/;"	kind:variable	line:4
+res	../cf13.py	/^    res = max(n_sum, res)$/;"	kind:variable	line:7
+res	../cf13.py	/^res = 0$/;"	kind:variable	line:2
+res	../coinGame.py	/^    res = findAns(lis)$/;"	kind:variable	line:14
+res	../tempCodeRunnerFile.py	/^res = 0$/;"	kind:variable	line:4
+s	../102B.py	/^    s = sum(s)$/;"	kind:variable	line:12
+s	../102B.py	/^s = str(input())$/;"	kind:variable	line:8
+s	../208A.py	/^s = list(filter(lambda x:x!='',s))$/;"	kind:variable	line:3
+s	../208A.py	/^s = list(s.split('WUB'))$/;"	kind:variable	line:2
+s	../208A.py	/^s = str(input())$/;"	kind:variable	line:1
+s	../219A.py	/^s = str(input())$/;"	kind:variable	line:3
+s	../266B.py	/^s = str(input())$/;"	kind:variable	line:2
+s	../320A.py	/^s = str(input())$/;"	kind:variable	line:1
+s	../489C.py	/^        s = 0$/;"	kind:variable	line:23
+s	../489C.py	/^        s = s-9$/;"	kind:variable	line:20
+s	../4C.py	/^    s = str(input())$/;"	kind:variable	line:4
+s	../617B.py	/^s = ''.join((input().split()))$/;"	kind:variable	line:2
+s	../864B.py	/^s = str(input())$/;"	kind:variable	line:2
+s	../cc1.py	/^    s = str(input())$/;"	kind:variable	line:3
+s	../cf15.py	/^s = str(input())$/;"	kind:variable	line:2
+s1	../489C.py	/^        s1 = 0$/;"	kind:variable	line:34
+s1	../489C.py	/^        s1 = s1-9$/;"	kind:variable	line:28
+s1	../489C.py	/^s1 = s-1$/;"	kind:variable	line:15
+se	../864B.py	/^    se = set([])$/;"	kind:variable	line:13
+set_a	../124A.py	/^set_a = set([])$/;"	kind:variable	line:2
+set_b	../124A.py	/^set_b = set([])$/;"	kind:variable	line:3
+sq	../primes.py	/^sq = int(math.sqrt(16000000))$/;"	kind:variable	line:3
+st_el	../451B.py	/^        st_el = lis[i]$/;"	kind:variable	line:9
+st_el	../451B.py	/^st_el = lis[0]$/;"	kind:variable	line:4
+start	../339B.py	/^    start = i$/;"	kind:variable	line:10
+start	../339B.py	/^start = 1$/;"	kind:variable	line:3
+start	../451B.py	/^        start = i-1$/;"	kind:variable	line:7
+start	../451B.py	/^start = 0$/;"	kind:variable	line:3
+start	../864B.py	/^    start = end+1$/;"	kind:variable	line:16
+start	../864B.py	/^start = 0$/;"	kind:variable	line:10
+su	../352A.py	/^su = (lis.count(5)*5)$/;"	kind:variable	line:3
+su	../75A.py	/^su = int(a)+int(b)$/;"	kind:variable	line:8
+su	../75A.py	/^su = remZ(su)$/;"	kind:variable	line:9
+sum	../102B.py	/^def sum(a):$/;"	kind:function	line:1
+t	../270A.py	/^t = int(input())$/;"	kind:variable	line:7
+t	../cc1.py	/^t = int(input())$/;"	kind:variable	line:1
+t	../cf13.py	/^t = int(input())$/;"	kind:variable	line:1
+tc	../coinGame.py	/^tc = int(input())$/;"	kind:variable	line:10
+tempCodeRunnerFile.py	../tempCodeRunnerFile.py	1;"	kind:file	line:1
+thun	../433A.py	/^thun = 0$/;"	kind:variable	line:4
+valid	../320A.py	/^valid = ['1','14','144']$/;"	kind:variable	line:2
+x	../372A.py	/^    x = int(input())$/;"	kind:variable	line:5
+x	../43A.py	/^    x = str(input())$/;"	kind:variable	line:4
+x	../864A.py	/^    x = int(input())$/;"	kind:variable	line:4
+x	../HeC17-2.py	/^    x = int(input())$/;"	kind:variable	line:16
+x	../HeC17-2.py	/^    x = int(input())$/;"	kind:variable	line:7
+x3	../459A.py	/^        x3 = x1$/;"	kind:variable	line:24
+x3	../459A.py	/^    x3 = x1$/;"	kind:variable	line:11
+x3	../459A.py	/^    x3 = x1+abs(y2-y1)$/;"	kind:variable	line:5
+x4	../459A.py	/^        x4 = x2$/;"	kind:variable	line:26
+x4	../459A.py	/^    x4 = x2$/;"	kind:variable	line:13
+x4	../459A.py	/^    x4 = x2+abs(y2-y1)$/;"	kind:variable	line:7
+y3	../459A.py	/^        y3 = y2$/;"	kind:variable	line:25
+y3	../459A.py	/^    y3 = y1 + abs(x2-x1)$/;"	kind:variable	line:10
+y3	../459A.py	/^    y3 = y1$/;"	kind:variable	line:6
+y4	../459A.py	/^        y4 = y1$/;"	kind:variable	line:27
+y4	../459A.py	/^    y4 = y2 + abs(x2-x1)$/;"	kind:variable	line:12
+y4	../459A.py	/^    y4 = y2$/;"	kind:variable	line:8
+zrs_l	../300A.py	/^zrs_l = []$/;"	kind:variable	line:6
